@@ -3,43 +3,64 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: custom
+title: Bulk Order
 ---
 
 <style>
-	#table *{
-		padding: 10px !important;
-	}
+  .table * {
+    padding: 10px !important;
+  }
 </style>
-<form
-  action="https://formspree.io/f/mnnqgqdw"
-  method="POST"
->
-	<table id="table">
-		<tr>
-			<th> Select </th>
-			<th> Name </th>
-			<th> Price </th>
-			<th> Quantity </th>
-		</tr>
-	{% for item in site.data.test %}
+<p>
+Use below Information for testing: <br/>
+Email: client1@shristigroup.com Hash: abcd<br/>
+Email: client2@shristigroup.com Hash: wxyz<br/>
+</p>
+<table id="login" class="table">
 	<tr>
-		<td>
-			<input type="checkbox" onclick="var input = document.getElementById('{{ item.name }}'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true; input.value='';}" />
+		<td>Email</td> 
+		<td><input id="email"/></td>
+	</tr>
+	<tr>
+		<td>Code</td>
+		<td><input id="hash"/></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="ec-size ec-size--xl">
+				<div class="ec-store">
+					<div class="form-control form-control--button form-control--secondary btn-get-direction">
+						<a class="form-control__button" href="#" onclick="checkNRedirectToClient(); return false;" target="_blank">
+							<span class="form-control__button-text">
+								<span>Submit</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
 
-    	</td>
-    	<td>
-    		{{ item.name }}
-    	</td>
-    	<td>
-    		{{ item.price }}
-    	</td>
-    	<td>
-    		<input id="{{ item.name }}" name="{{ item.name }}" disabled="true"/>
-    	</td>
-    </tr>
-    {% endfor %}
-    </table>
+<script>
+	clientData = {
+		"client1@shristigroup.com": { "hash": "abcd", "redirect": "8d92e8d3-864e-48be-815c-af415a70600f" },
+		"client2@shristigroup.com": { "hash": "wxyz", "redirect": "e5172ad1-bd20-4473-acc0-4b82336403e9" }
+	}
+	function checkNRedirectToClient() {
+		var email = document.getElementById('email').value.trim();
+		var hash = document.getElementById('hash').value.trim();
 
-    <button type="submit">Submit Order</button>
+		if (!clientData[email]) {
+			alert("Email not found")
+			return false;
+		}
 
-</form>
+		if (hash === clientData[email]["hash"]) {
+			var newLocation =  window.location.href + clientData[email]["redirect"]
+			//console.log(newLocation)
+			window.location.href = newLocation;
+		}
+		console.log("here")
+	}
+</script>

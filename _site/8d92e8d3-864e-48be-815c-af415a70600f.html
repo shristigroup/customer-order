@@ -10848,7 +10848,7 @@
                                   >
                                     <div>
                                       <div class="ec-page-title">
-                                        <h1 class="page-title__name ec-header-h1">{{ page.title }}</h1>
+                                        <h1 class="page-title__name ec-header-h1">client 1</h1>
                                         
                                         </div>
                                       </div>
@@ -10917,7 +10917,73 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <div id="content">{{ content }}</div>
+                                          <div id="content"><style>
+  .table * {
+    padding: 10px !important;
+  }
+</style>
+<form id="form" action="https://formspree.io/f/mnnqgqdw" method="POST">
+  <table class="table">
+    <tr>
+      <th>Select</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+    
+    <tr>
+      <td>
+        <input
+          type="checkbox"
+          onclick="var input = document.getElementById('Aquasil Ultra Auto Mix 50'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true; input.value='';}"
+        />
+      </td>
+      <td>Aquasil Ultra Auto Mix 50</td>
+      <td>4000</td>
+      <td>
+        <input id="Aquasil Ultra Auto Mix 50" name="Aquasil Ultra Auto Mix 50" disabled="true" />
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <input
+          type="checkbox"
+          onclick="var input = document.getElementById('Agfa Dry Star'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true; input.value='';}"
+        />
+      </td>
+      <td>Agfa Dry Star</td>
+      <td>3500</td>
+      <td>
+        <input id="Agfa Dry Star" name="Agfa Dry Star" disabled="true" />
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <input
+          type="checkbox"
+          onclick="var input = document.getElementById('Lead Apron'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true; input.value='';}"
+        />
+      </td>
+      <td>Lead Apron</td>
+      <td>9000</td>
+      <td>
+        <input id="Lead Apron" name="Lead Apron" disabled="true" />
+      </td>
+    </tr>
+    
+  </table>
+
+  <div class="ec-size ec-size--xl">
+    <div class="ec-store">
+      <div class="form-control form-control--button form-control--secondary btn-get-direction">
+        <button class="form-control__button" type="submit">Submit Order</button>
+      </div>
+    </div>
+  </div>
+</form>
+</div>
                                         </div>
                                       </div>
                                       <!---->
