@@ -10972,6 +10972,7 @@ Email: client2@shristigroup.com Hash: wxyz<br />
 			var newLocation =  window.location.href + clientData[email]["redirect"]
 			//console.log(newLocation)
 			window.location.href = newLocation;
+			return false;
 		}
 		
 		alert("No matching information found. Try again.")
