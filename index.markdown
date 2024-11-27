@@ -51,12 +51,8 @@ Email: client2@shristigroup.com Hash: wxyz<br/>
 		var email = document.getElementById('email').value.trim();
 		var hash = document.getElementById('hash').value.trim();
 
-		if (!clientData[email]) {
-			alert("Email not found")
-			return false;
-		}
 
-		if (hash === clientData[email]["hash"]) {
+		if (clientData[email] && hash === clientData[email]["hash"]) {
 			var newLocation =  window.location.href + clientData[email]["redirect"]
 			//console.log(newLocation)
 			window.location.href = newLocation;
