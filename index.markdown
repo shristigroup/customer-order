@@ -46,7 +46,9 @@ Email: client2@shristigroup.com Hash: wxyz<br/>
 	clientData = {
 		"client1@shristigroup.com": { "hash": "abcd", "redirect": "8d92e8d3-864e-48be-815c-af415a70600f" },
 		"client2@shristigroup.com": { "hash": "wxyz", "redirect": "e5172ad1-bd20-4473-acc0-4b82336403e9" },
-		"newerahospitalpvtltd": { "hash": "@123", "redirect": "dba9297c-e4bc-40cd-8ec0-0f83f3e96416" }
+		"newerahospitalpvtltd": { "hash": "@123", "redirect": "dba9297c-e4bc-40cd-8ec0-0f83f3e96416" },
+		"wockhearthospitalnagpur": { "hash": "@123", "redirect": "02ce3b96-20fa-49b0-a66e-4184b43022d5" },
+		
 	}
 	function checkNRedirectToClient() {
 		var email = document.getElementById('email').value.trim();
