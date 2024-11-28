@@ -1,0 +1,11 @@
+- name: Mix 50
+  price: 5000
+
+- name: Star
+  price: 3500
+
+- name: Apron
+  price: 9000
+  
+- name: B12
+  price: 220
