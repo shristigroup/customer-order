@@ -49,6 +49,7 @@ Email: client2@shristigroup.com Hash: wxyz<br/>
 		"newerahospitalpvtltd": { "hash": "@123", "redirect": "dba9297c-e4bc-40cd-8ec0-0f83f3e96416" },
 		"wockhearthospitalnagpur": { "hash": "@123", "redirect": "02ce3b96-20fa-49b0-a66e-4184b43022d5" },
 		"kingswayhospitalnagpur": { "hash": "KWHOSP", "redirect": "a5849fd4-0628-444f-8c7c-5dd52c747954" },
+		"paridhidiabetescentre": { "hash": "pdcr", "redirect": "eaf9f969-54d8-45c4-a86c-49cec8408f94" },
 		
 	}
 	function checkNRedirectToClient() {
