@@ -51,6 +51,7 @@ Email: client2@shristigroup.com Hash: wxyz<br/>
 		"kingswayhospitalnagpur": { "hash": "KWHOSP", "redirect": "a5849fd4-0628-444f-8c7c-5dd52c747954" },
 		"paridhidiabetescentre": { "hash": "pdcr", "redirect": "eaf9f969-54d8-45c4-a86c-49cec8408f94" },
 		"medishineraipur": { "hash": "medishineraipur", "redirect": "510bbd44-55e3-43d2-984f-88d305c0dca2" },
+		"tiwariclinicallab": { "hash": "tcl", "redirect": "f93ce79c-e66c-4344-ae34-075c4c52843e" },
 		
 	}
 	function checkNRedirectToClient() {
