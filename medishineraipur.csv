@@ -6,12 +6,12 @@ A13422,Free T3,3000,5%
 33880,Free T4,3000,5%
 33830,Total T3,2500,5%
 33800,Total T4,2500,5%
-33820,Fast / hTSH,5000,5%
-A10826,DHEA-S,8000,5%
-33540,Estradiol 2X50 Det,7000,5%
+33820,"Fast / hTSH",5000,5%
+A10826,"DHEA-S",8000,5%
+33540,Estradiol,7000,5%
 33570,Unconjugated Estriol,7000,5%
 33520,hFSH,7000,5%
-A85264,Total BhCG (5th IS),7000,5%
+A85264,"Total BhCG (5th IS)",7000,5%
 A36097,Inhibin A,30000,5%
 33510,hLH,7000,5%
 33550,Progesterone,7000,5%
@@ -19,7 +19,7 @@ A36097,Inhibin A,30000,5%
 A48617,SHBG,27900,5%
 33560,Testosterone,7000,5%
 B13127,AMH,78000,5%
-A48571,PAPP-A,37000,5%
+A48571,"PAPP-A",37000,5%
 33600,"Cortisol (serum, Plasma, Urine)",9000,5%
 33210,AFP,12000,5%
 386357,"OV Monitor (CA 125 Antigen)",13000,5%
@@ -36,7 +36,7 @@ A98032,Folate,12000,5%
 387992,Intrinsic Factor Ab,46000,5%
 A32493,sTfR,51789,5%
 33000,Vitamin B12,7500,5%
-386371,CK-MB,9500,5%
+386371,"CK-MB",9500,5%
 33710,Digoxin,9500,5%
 973243,Myoglobin,8000,5%
 A98143,"AccuTni for use on Access",11000,5%
@@ -60,7 +60,7 @@ A36098,"Inhibin A Cals S0-S6",9000,12%
 33515,hLH Cals,5000,12%
 33555,Progesterone Cals,5000,12%
 33535,Prolactin Cals,5000,12%
-A48618,SHBG Cals S0 S5,9000,12%
+A48618,SHBG Cals,9000,12%
 33565,"Testosterone Cals, S0-S5",5000,12%
 B13128,"AMH Cals S0 - S5",9000,12%
 A48572,"PAPP-A Cals S0-S5",17800,12%
@@ -96,4 +96,4 @@ A16792,"Wash Buffer",6000,12%
 81910,"System Check Solution",5000,12%
 81904,Waste Bags,5000,18%
 81902,Sample Cup ,2500,18%
-651412,Sample Cup .5ML,2500,18%
+651412,"Sample Cup .5ML",2500,18%
