@@ -7,11 +7,11 @@ A13422,Free T3,3000,5%
 33830,Total T3,1600,5%
 33800,Total T4,1600,5%
 33820,Fast / hTSH,3600,5%
-A10826,DHEA-S,8000,5%
+A10826,"DHEA-S",8000,5%
 33540,Estradiol 2X50 Det,7500,5%
 33570,Unconjugated Estriol,7500,5%
 33520,hFSH,6000,5%
-A85264,Total BhCG (5th IS),6000,5%
+A85264,Total BhCG,6000,5%
 A36097,Inhibin  A,35000,5%
 33510,hLH,6000,5%
 33550,Progesterone,6000,5%
@@ -22,82 +22,76 @@ B13127,AMH,50000,5%
 A48571,PAPP-A,37000,5%
 33600,"Cortisol (serum, Plasma, Urine)",9000,5%
 33210,AFP,12000,5%
-386357,OV Monitor (CA 125 Antigen),10000,5%
-387620,BR Monitor (CA 15-3 Antigen),10000,5%
-387687,GI Monitor (CA 19.9 Antigen),11000,5%
+386357,"OV Monitor (CA 125 Antigen)",10000,5%
+387620,"BR Monitor (CA 15-3 Antigen)",10000,5%
+387687,"GI Monitor (CA 19.9 Antigen)",11000,5%
 33200,CEA,12638,5%
 37210,Hybritech Free PSA,11000,5%
 37200,Hybritech PSA,9900,5%
 33580,Ultrasensitive hGH,13500,5%
-A16972,Intact  PTH (Routine or Intraoperative),17600,5%
-B24838,25 (OH) Vitamin D Total.,18000,5%
+A16972,"Intact  PTH (Routine or Intraoperative)",17600,5%
+B24838,"25 (OH) Vitamin D Total.",18000,5%
 33020,Ferritin,8800,5%
 A98032,Folate,12000,5%
 387992,Intrinsic Factor Ab,46000,5%
 A32493,sTfR,51789,5%
 33000,Vitamin B12,6000,5%
-386371,CK-MB,9900,5%
+386371,"CK-MB",9900,5%
 33710,Digoxin,9500,5%
 973243,Myoglobin,8000,5%
-A98143,AccuTnI+3 for use on Access,12000,5%
+A98143,AccuTni for use on Access,12000,5%
 33410,Ultrasensitive Insulin,8700,5%
-A16369,IL-6,65000,5%
+A16369,"IL-6",65000,5%
 C22593,PCT,65000,5%
-,CALIBRATORS,,
 33865,"Thyroglobulin Cals, S0-S5",6583,12%
-A36920,Thyroglobulin Ab II Cals S0-S5,10471,12%
-A18227,TPO Ab Cals - S0-55,11000,12%
-A13430,Free T3 Cals S0-S5,5300,12%
-33885,Free T4 Cals S0-S5,5300,12%
-33835,Total T3 Cals S0-S5,4500,12%
+A36920,Thyroglobulin cal,10471,12%
+A18227,TPO Ab Cals,11000,12%
+A13430,Free T3 Cals,5300,12%
+33885,Free T4 Cals ,5300,12%
+33835,Total T3 Cals ,4500,12%
 33805,Total T4 Cals,4500,12%
-33825,Fast / hTSH Cals,4500,12%
-A10827,"DHEA-S Cals, S0-S5",5000,12%
-33545,Estradiol Cals S0-S5,5000,12%
-33575,Unconjugated Estriol Cals S0-S6,6000,12%
+33825,Fast  hTSH Cals,4500,12%
+A10827,"DHEA-S Cals",5000,12%
+33545,Estradiol Cals,5000,12%
+33575,Unconjugated Estriol Cals,6000,12%
 33525,hFSH Cals,5000,12%
-B11754,Total BhCG (5th IS) Cals S0-S5,5000,12%
-A36098,Inhibin  A Cals S0-S6,9000,12%
+B11754,"Total BhCG (5th IS) Cals',5000,12%
+A36098,Inhibin  A Cals,9000,12%
 33515,hLH Cals,5000,12%
 33555,Progesterone Cals,5000,12%
 33535,Prolactin Cals,5000,12%
-A48618,SHBG Cals S0 S5,9000,12%
+A48618,SHBG Cals,9000,12%
 33565,"Testosterone Cals, S0-S5",5000,12%
-B13128,AMH Cals S0 - S5,9000,12%
-A48572,PAPP-A Cals S0-S5,17800,12%
-33605,Cortisol Cals S0-S5,5000,12%
-33215,AFP Cals S0-S6,5800,12%
-386358,OV Monitor (CA 125 Antigen) Cals,5800,12%
-387647,BR Monitor (CA 15-3 Antigen) Cals S0- S5,5800,12%
-387688,GI Monitor (CA 19.9 Antigen) Cals S0-55,5800,12%
+B13128,AMH Cals,9000,12%
+A48572,PAPP-A Cals,17800,12%
+33605,Cortisol Cals,5000,12%
+33215,AFP Cals ,5800,12%
+386358,"OV Monitor (CA 125 Antigen) Cals",5800,12%
+387647,"BR Monitor (CA 15-3 Antigen) Cals S0- S5",5800,12%
+387688,"GI Monitor (CA 19.9 Antigen) Cals S0-55",5800,12%
 33205,CEA Cals,5800,12%
 37215,Hybritech Free PSA Cals,5800,12%
 37205,Hybritech PSA Cals,5800,12%
-A16953,"Intact  PTH (Routine or
-Intraoperative)Cals S0-S5",7000,12%
-B24839,25 (OH) Vitamin D Total Cals,8000,12%
+B24839,"25 (OH) Vitamin D Total Cals",8000,12%
 A16365,"EPO Cals - 5 x 2.5mL, 1 x 10mL",12244,12%
 33025,Ferritin Cals,7000,12%
-A98033,Folate / Folate RBC Cals S0-S5,6000,12%
+A98033,"Folate / Folate RBC Cals S0-S5",6000,12%
 387993,Intrinsic Factor Ab Cals,18700,12%
-A32494,Soluble Transferrin Receptor (STfR) Cals S0-S5,14997,12%
+A32494,Soluble Transferrin Receptor,14997,12%
 33005,Vitamin B12 Cals,5500,12%
-386372,CK-MB Cals 50-55,6000,12%
-33715,Digoxin Cals S0-S5,7000,12%
+386372,CK-MB Cals ,6000,12%
+33715,Digoxin Cals ,7000,12%
 973244,Myoglobin Cals,5600,12%
-A98144,AccuTnI+3 for use on Access Cals S0-S5,5900,12%
-33415,Ultrasensitive Insulin Cal S0-S5,6380,12%
-A16370,IL-6 Cal,26000,12%
+A98144,AccuTnI for use on Access Cals,5900,12%
+33415,Ultrasensitive Insulin Cal,6380,12%
+A16370,"IL-6 Cal",26000,12%
 C22594,PCT Cal,9000,12%
-Item No,Access Consumables,,
-,,,
-81906,Substrate 4 X 130ML (Access / DxI),2500,12%
-81901,Reaction Vessels 16X98 (Access2),3000,18%
+81906,"Substrate 4 X 130ML (Access / DxI)",2500,12%
+81901,"Reaction Vessels 16X98 (Access2)",3000,18%
 A16792,"Wash Buffer II, 4 x 1950 mL (Access2)",3000,12%
-Item No,Other Consumables & Controls,,
 81911,"Contrad 70, 1 X 1 Ltrs.",4000,18%
 81912,"Citranox, 1 X 1 Gallon",6000,18%
 81910,"System Check Solution, 6 X 4M",5000,12%
-81904,Waste Bags 20/Box (Access),5000,18%
-81902,Sample Cup 1000X2ML,2500,18%
-651412,Sample Cup .5ML 1000/PK,2500,18%
+81904,"Waste Bags 20/Box (Access)",5000,18%
+81902,"Sample Cup 1000X2ML",2500,18%
+651412,"Sample Cup .5ML 1000/PK",2500,18%
