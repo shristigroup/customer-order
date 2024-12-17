@@ -14,7 +14,7 @@ title: Bulk Order
 
 <table id="login" class="table">
 	<tr>
-		<td>Email</td> 
+		<td>Userid</td> 
 		<td><input id="email"/></td>
 	</tr>
 	<tr>
