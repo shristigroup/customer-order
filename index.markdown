@@ -11,11 +11,7 @@ title: Bulk Order
     padding: 10px !important;
   }
 </style>
-<p>
-Use below Information for testing: <br/>
-Email: client1@shristigroup.com Hash: abcd<br/>
-Email: client2@shristigroup.com Hash: wxyz<br/>
-</p>
+
 <table id="login" class="table">
 	<tr>
 		<td>Email</td> 
