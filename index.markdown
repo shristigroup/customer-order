@@ -53,6 +53,7 @@ title: Bulk Order
 		"swarajdiagnosticcentre": { "hash": "sdcn", "redirect": "a40f9a61-746c-4096-b2db-f9d908fce110" },
 		"drajaylanjewar": { "hash": "draln", "redirect": "b7d38cb1-e700-4cde-92b3-7042d5d62945" },
 		"matrusewasangh": { "hash": "mss", "redirect": "5a138f3e-05f3-44ba-9be8-b84873985eb4" },
+		"mayashihealthcare": { "hash": "mhn", "redirect": "c9ccdd61-84e7-433e-a91d-ad125b469320" },
 		
 	}
 	function checkNRedirectToClient() {
