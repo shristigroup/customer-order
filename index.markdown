@@ -54,6 +54,7 @@ title: Bulk Order
 		"drajaylanjewar": { "hash": "draln", "redirect": "b7d38cb1-e700-4cde-92b3-7042d5d62945" },
 		"matrusewasangh": { "hash": "mss", "redirect": "5a138f3e-05f3-44ba-9be8-b84873985eb4" },
 		"mayashihealthcare": { "hash": "mhn", "redirect": "c9ccdd61-84e7-433e-a91d-ad125b469320" },
+		"suvishwasdiagnostics": { "hash": "sdn", "redirect": "e07a7017-608f-4ce3-8086-c5db35ee0b0a" },
 		
 	}
 	function checkNRedirectToClient() {
