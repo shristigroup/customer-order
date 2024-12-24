@@ -49,7 +49,7 @@ title: Bulk Order
 		"medishineraipur": { "hash": "medishineraipur", "redirect": "510bbd44-55e3-43d2-984f-88d305c0dca2" },
 		"tiwariclinicallab": { "hash": "tcl", "redirect": "f93ce79c-e66c-4344-ae34-075c4c52843e" },
 		"cardionhospital": { "hash": "chn", "redirect": "81ab5128-8ea3-4c2d-9007-a724f9453528" },
-		"arnejaheartinstititute": { "hash": "ahin", "redirect": "8409d83d-8170-48db-af57-7d36234c839f" },
+		"arnejaheartinstitute": { "hash": "ahin", "redirect": "8409d83d-8170-48db-af57-7d36234c839f" },
 		
 	}
 	function checkNRedirectToClient() {
