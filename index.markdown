@@ -48,6 +48,7 @@ title: Bulk Order
 		"paridhidiabetescentre": { "hash": "pdcr", "redirect": "eaf9f969-54d8-45c4-a86c-49cec8408f94" },
 		"medishineraipur": { "hash": "medishineraipur", "redirect": "510bbd44-55e3-43d2-984f-88d305c0dca2" },
 		"tiwariclinicallab": { "hash": "tcl", "redirect": "f93ce79c-e66c-4344-ae34-075c4c52843e" },
+		"cardionhospital": { "hash": "chn", "redirect": "81ab5128-8ea3-4c2d-9007-a724f9453528" },
 		
 	}
 	function checkNRedirectToClient() {
