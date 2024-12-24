@@ -50,6 +50,7 @@ title: Bulk Order
 		"tiwariclinicallab": { "hash": "tcl", "redirect": "f93ce79c-e66c-4344-ae34-075c4c52843e" },
 		"cardionhospital": { "hash": "chn", "redirect": "81ab5128-8ea3-4c2d-9007-a724f9453528" },
 		"arnejaheartinstitute": { "hash": "ahin", "redirect": "8409d83d-8170-48db-af57-7d36234c839f" },
+		"swarajdiagnosticcentre": { "hash": "sdcn", "redirect": "a40f9a61-746c-4096-b2db-f9d908fce110" },
 		
 	}
 	function checkNRedirectToClient() {
