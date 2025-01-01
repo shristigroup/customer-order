@@ -10,31 +10,87 @@ layout: custom
     padding: 10px !important;
   }
 </style>
+<script>
+  var totalExpense = 0
+
+  function onSelect(element, inputId, spanId) {
+    var input = document.getElementById(inputId)
+    console.log(input)
+    var span = document.getElementById(spanId)
+    if (element.checked) {
+      input.disabled = false
+      input.focus()
+    } else {
+      input.disabled = true
+      input.value = ""
+      span.innerText = ""
+      var total = span.getAttribute("total")
+      if (!isNaN(total)) {
+        totalExpense -= total
+      }
+      span.setAttribute("total", 0)
+    }
+  }
+
+  function onKeyup(element, spanId) {
+    var span = document.getElementById(spanId)
+    var total = span.getAttribute("total")
+    if (!isNaN(total)) totalExpense -= total
+
+    total = element.value * element.getAttribute("price") * (1 + element.getAttribute("gst") / 100)
+    if (!isNaN(total)) {
+      span.setAttribute("total", total)
+      totalExpense += total
+      span.innerText = total.toLocaleString()
+
+      document.getElementById("total").innerText = totalExpense.toLocaleString()
+    }
+  }
+
+  function updateTotal() {}
+</script>
 <form id="form" action="https://formspree.io/f/mnnqgqdw" method="POST">
-  <input name="client" value="{{ page.client }}" type="hidden"/>
+  <input name="client" value="{{ page.client }}" type="hidden" />
 
   <table class="table">
     <tr>
       <th>Select</th>
-      <th>Name</th>
+      <th>Part #</th>
+      <th style="text-align: left">Name</th>
       <th>Price</th>
+      <th>GST</th>
       <th>Quantity</th>
+      <th style="text-align: left; padding-left: 20px !important">Total</th>
     </tr>
     {% for item in site.data[page.client] %}
     <tr>
       <td>
-        <input
-          type="checkbox"
-          onclick="var input = document.getElementById('{{ item.name }}'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true; input.value='';}"
-        />
+        <input type="checkbox" onclick="onSelect(this,'{{ item.name }}','{{ item.name}}-total')" />
       </td>
+      <td>{{ item.partno }}</td>
       <td>{{ item.name }}</td>
       <td>{{ item.price }}</td>
+      <td>{{ item.gst }}%</td>
       <td>
-        <input id="{{ item.name }}" name="{{ item.name }}" disabled="true" />
+        <input
+          id="{{ item.name }}"
+          name="{{ item.name }}"
+          disabled="true"
+          price="{{ item.price }}"
+          gst="{{ item.gst }}"
+          onkeyup="onKeyup(this, '{{ item.name }}-total')"
+        />
       </td>
+      <td><span id="{{ item.name }}-total" total="0"></span></td>
     </tr>
     {% endfor %}
+    <tr>
+      <td colspan="5"></td>
+      <td style="text-align: right"><b>Grand Total</b></td>
+      <td>
+        <b>Rs<span id="total">0</span></b>
+      </td>
+    </tr>
   </table>
 
   <div class="ec-size ec-size--xl">

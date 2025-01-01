@@ -1,6 +1,6 @@
-name,price
-"Agfa Dry Star",3500
-"AMPLIFIED MTD M.TUBERC.DIRECT",1000
-"Aquasil Ultra Auto Mix 50",5000
-"Lead Apron",9000
-"Vidas B12",220
+partno,name,price,gst
+101,"Agfa Dry Star",3500,5
+102,"AMPLIFIED MTD M.TUBERC.DIRECT",1000,10
+103,"Aquasil Ultra Auto Mix 50",5000,5
+104,"Lead Apron",9000,10
+105,"Vidas B12",220,5
