@@ -10941,6 +10941,7 @@
         totalExpense -= total
       }
       span.setAttribute("total", 0)
+      document.getElementById("total").innerText = totalExpense.toLocaleString()
     }
   }
 
@@ -10964,27 +10965,31 @@
 
   <table class="table">
     <tr>
-      <th>Select</th>
       <th>Part #</th>
       <th style="text-align: left">Name</th>
       <th>Price</th>
       <th>GST</th>
+      <th>Select</th>
       <th>Quantity</th>
       <th style="text-align: left; padding-left: 20px !important">Total</th>
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROTEIN C 30TESTS','VIDAS PROTEIN C 30TESTS-total')" />
-      </td>
       <td>30115</td>
       <td>VIDAS PROTEIN C 30TESTS</td>
       <td>9075</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROTEIN C 30TESTS','VIDAS PROTEIN C 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROTEIN C 30TESTS"
-          name="VIDAS PROTEIN C 30TESTS"
+          name="Part# - 30115, Name - VIDAS PROTEIN C 30TESTS"
           disabled="true"
           price="9075"
           gst="5"
@@ -10995,17 +11000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CD A/B 60 TESTS','VIDAS CD A/B 60 TESTS-total')" />
-      </td>
       <td>30118</td>
       <td>VIDAS CD A/B 60 TESTS</td>
       <td>21659</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CD A/B 60 TESTS','VIDAS CD A/B 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CD A/B 60 TESTS"
-          name="VIDAS CD A/B 60 TESTS"
+          name="Part# - 30118, Name - VIDAS CD A/B 60 TESTS"
           disabled="true"
           price="21659"
           gst="5"
@@ -11016,17 +11025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS H. PYLORI IGG 30 TESTS','VIDAS H. PYLORI IGG 30 TESTS-total')" />
-      </td>
       <td>30192</td>
       <td>VIDAS H. PYLORI IGG 30 TESTS</td>
       <td>7986</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS H. PYLORI IGG 30 TESTS','VIDAS H. PYLORI IGG 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS H. PYLORI IGG 30 TESTS"
-          name="VIDAS H. PYLORI IGG 30 TESTS"
+          name="Part# - 30192, Name - VIDAS H. PYLORI IGG 30 TESTS"
           disabled="true"
           price="7986"
           gst="5"
@@ -11037,17 +11050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGM 60 TESTS','VIDAS TOXO IGM 60 TESTS-total')" />
-      </td>
       <td>30202</td>
       <td>VIDAS TOXO IGM 60 TESTS</td>
       <td>7400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGM 60 TESTS','VIDAS TOXO IGM 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGM 60 TESTS"
-          name="VIDAS TOXO IGM 60 TESTS"
+          name="Part# - 30202, Name - VIDAS TOXO IGM 60 TESTS"
           disabled="true"
           price="7400"
           gst="5"
@@ -11058,17 +11075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CMV IGG 60 TESTS','VIDAS CMV IGG 60 TESTS-total')" />
-      </td>
       <td>30204</td>
       <td>VIDAS CMV IGG 60 TESTS</td>
       <td>7400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CMV IGG 60 TESTS','VIDAS CMV IGG 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CMV IGG 60 TESTS"
-          name="VIDAS CMV IGG 60 TESTS"
+          name="Part# - 30204, Name - VIDAS CMV IGG 60 TESTS"
           disabled="true"
           price="7400"
           gst="5"
@@ -11079,17 +11100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CMV IGM 30 TESTS','VIDAS CMV IGM 30 TESTS-total')" />
-      </td>
       <td>30205</td>
       <td>VIDAS CMV IGM 30 TESTS</td>
       <td>3800</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CMV IGM 30 TESTS','VIDAS CMV IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CMV IGM 30 TESTS"
-          name="VIDAS CMV IGM 30 TESTS"
+          name="Part# - 30205, Name - VIDAS CMV IGM 30 TESTS"
           disabled="true"
           price="3800"
           gst="5"
@@ -11100,17 +11125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGG II 60 TESTS','VIDAS TOXO IGG II 60 TESTS-total')" />
-      </td>
       <td>30210</td>
       <td>VIDAS TOXO IGG II 60 TESTS</td>
       <td>7400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGG II 60 TESTS','VIDAS TOXO IGG II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGG II 60 TESTS"
-          name="VIDAS TOXO IGG II 60 TESTS"
+          name="Part# - 30210, Name - VIDAS TOXO IGG II 60 TESTS"
           disabled="true"
           price="7400"
           gst="5"
@@ -11121,17 +11150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS RUB IGM 30 TESTS','VIDAS RUB IGM 30 TESTS-total')" />
-      </td>
       <td>30214</td>
       <td>VIDAS RUB IGM 30 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS RUB IGM 30 TESTS','VIDAS RUB IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS RUB IGM 30 TESTS"
-          name="VIDAS RUB IGM 30 TESTS"
+          name="Part# - 30214, Name - VIDAS RUB IGM 30 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11142,17 +11175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS VARICEL. ZOSTER IGG 60 T','VIDAS VARICEL. ZOSTER IGG 60 T-total')" />
-      </td>
       <td>30217</td>
       <td>VIDAS VARICEL. ZOSTER IGG 60 T</td>
       <td>11707</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS VARICEL. ZOSTER IGG 60 T','VIDAS VARICEL. ZOSTER IGG 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS VARICEL. ZOSTER IGG 60 T"
-          name="VIDAS VARICEL. ZOSTER IGG 60 T"
+          name="Part# - 30217, Name - VIDAS VARICEL. ZOSTER IGG 60 T"
           disabled="true"
           price="11707"
           gst="5"
@@ -11163,17 +11200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MUMPS IGG 60TESTS','VIDAS MUMPS IGG 60TESTS-total')" />
-      </td>
       <td>30218</td>
       <td>VIDAS MUMPS IGG 60TESTS</td>
       <td>11700</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MUMPS IGG 60TESTS','VIDAS MUMPS IGG 60TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MUMPS IGG 60TESTS"
-          name="VIDAS MUMPS IGG 60TESTS"
+          name="Part# - 30218, Name - VIDAS MUMPS IGG 60TESTS"
           disabled="true"
           price="11700"
           gst="5"
@@ -11184,17 +11225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MEASLES IGG 60TESTS','VIDAS MEASLES IGG 60TESTS-total')" />
-      </td>
       <td>30219</td>
       <td>VIDAS MEASLES IGG 60TESTS</td>
       <td>12100</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MEASLES IGG 60TESTS','VIDAS MEASLES IGG 60TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MEASLES IGG 60TESTS"
-          name="VIDAS MEASLES IGG 60TESTS"
+          name="Part# - 30219, Name - VIDAS MEASLES IGG 60TESTS"
           disabled="true"
           price="12100"
           gst="5"
@@ -11205,17 +11250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS RUB IGG II 60 TESTS','VIDAS RUB IGG II 60 TESTS-total')" />
-      </td>
       <td>30221</td>
       <td>VIDAS RUB IGG II 60 TESTS</td>
       <td>7400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS RUB IGG II 60 TESTS','VIDAS RUB IGG II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS RUB IGG II 60 TESTS"
-          name="VIDAS RUB IGG II 60 TESTS"
+          name="Part# - 30221, Name - VIDAS RUB IGG II 60 TESTS"
           disabled="true"
           price="7400"
           gst="5"
@@ -11226,17 +11275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGG AVIDITY 30TESTS','VIDAS TOXO IGG AVIDITY 30TESTS-total')" />
-      </td>
       <td>30222</td>
       <td>VIDAS TOXO IGG AVIDITY 30TESTS</td>
       <td>4235</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGG AVIDITY 30TESTS','VIDAS TOXO IGG AVIDITY 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGG AVIDITY 30TESTS"
-          name="VIDAS TOXO IGG AVIDITY 30TESTS"
+          name="Part# - 30222, Name - VIDAS TOXO IGG AVIDITY 30TESTS"
           disabled="true"
           price="4235"
           gst="5"
@@ -11247,17 +11300,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBE/ANTI-HBE 30 TESTS','VIDAS HBE/ANTI-HBE 30 TESTS-total')" />
-      </td>
       <td>30305</td>
       <td>VIDAS HBE/ANTI-HBE 30 TESTS</td>
       <td>6413</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBE/ANTI-HBE 30 TESTS','VIDAS HBE/ANTI-HBE 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBE/ANTI-HBE 30 TESTS"
-          name="VIDAS HBE/ANTI-HBE 30 TESTS"
+          name="Part# - 30305, Name - VIDAS HBE/ANTI-HBE 30 TESTS"
           disabled="true"
           price="6413"
           gst="5"
@@ -11268,17 +11325,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HAV IGM 30 TESTS','VIDAS HAV IGM 30 TESTS-total')" />
-      </td>
       <td>30307</td>
       <td>VIDAS HAV IGM 30 TESTS</td>
       <td>6534</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HAV IGM 30 TESTS','VIDAS HAV IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HAV IGM 30 TESTS"
-          name="VIDAS HAV IGM 30 TESTS"
+          name="Part# - 30307, Name - VIDAS HAV IGM 30 TESTS"
           disabled="true"
           price="6534"
           gst="5"
@@ -11289,17 +11350,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HCV 60 TESTS','VIDAS ANTI-HCV 60 TESTS-total')" />
-      </td>
       <td>30308</td>
       <td>VIDAS ANTI-HCV 60 TESTS</td>
       <td>8400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HCV 60 TESTS','VIDAS ANTI-HCV 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HCV 60 TESTS"
-          name="VIDAS ANTI-HCV 60 TESTS"
+          name="Part# - 30308, Name - VIDAS ANTI-HCV 60 TESTS"
           disabled="true"
           price="8400"
           gst="5"
@@ -11310,17 +11375,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HAV TOTAL 30T','VIDAS ANTI-HAV TOTAL 30T-total')" />
-      </td>
       <td>30312</td>
       <td>VIDAS ANTI-HAV TOTAL 30T</td>
       <td>6534</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HAV TOTAL 30T','VIDAS ANTI-HAV TOTAL 30T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HAV TOTAL 30T"
-          name="VIDAS ANTI-HAV TOTAL 30T"
+          name="Part# - 30312, Name - VIDAS ANTI-HAV TOTAL 30T"
           disabled="true"
           price="6534"
           gst="5"
@@ -11331,17 +11400,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HBC TOTAL II 60 T','VIDAS ANTI-HBC TOTAL II 60 T-total')" />
-      </td>
       <td>30314</td>
       <td>VIDAS ANTI-HBC TOTAL II 60 T</td>
       <td>10648</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HBC TOTAL II 60 T','VIDAS ANTI-HBC TOTAL II 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HBC TOTAL II 60 T"
-          name="VIDAS ANTI-HBC TOTAL II 60 T"
+          name="Part# - 30314, Name - VIDAS ANTI-HBC TOTAL II 60 T"
           disabled="true"
           price="10648"
           gst="5"
@@ -11352,17 +11425,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBS AG ULTRA 60 T','VIDAS HBS AG ULTRA 60 T-total')" />
-      </td>
       <td>30315</td>
       <td>VIDAS HBS AG ULTRA 60 T</td>
       <td>6600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBS AG ULTRA 60 T','VIDAS HBS AG ULTRA 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBS AG ULTRA 60 T"
-          name="VIDAS HBS AG ULTRA 60 T"
+          name="Part# - 30315, Name - VIDAS HBS AG ULTRA 60 T"
           disabled="true"
           price="6600"
           gst="5"
@@ -11373,17 +11450,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBSAG ULTRA CONFIRMATION','VIDAS HBSAG ULTRA CONFIRMATION-total')" />
-      </td>
       <td>30317</td>
       <td>VIDAS HBSAG ULTRA CONFIRMATION</td>
       <td>2420</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBSAG ULTRA CONFIRMATION','VIDAS HBSAG ULTRA CONFIRMATION-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBSAG ULTRA CONFIRMATION"
-          name="VIDAS HBSAG ULTRA CONFIRMATION"
+          name="Part# - 30317, Name - VIDAS HBSAG ULTRA CONFIRMATION"
           disabled="true"
           price="2420"
           gst="5"
@@ -11394,17 +11475,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI HBS TOTAL II 60T','VIDAS ANTI HBS TOTAL II 60T-total')" />
-      </td>
       <td>30318</td>
       <td>VIDAS ANTI HBS TOTAL II 60T</td>
       <td>10285</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI HBS TOTAL II 60T','VIDAS ANTI HBS TOTAL II 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI HBS TOTAL II 60T"
-          name="VIDAS ANTI HBS TOTAL II 60T"
+          name="Part# - 30318, Name - VIDAS ANTI HBS TOTAL II 60T"
           disabled="true"
           price="10285"
           gst="5"
@@ -11415,17 +11500,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TSH 60 TESTS','VIDAS TSH 60 TESTS-total')" />
-      </td>
       <td>30400</td>
       <td>VIDAS TSH 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TSH 60 TESTS','VIDAS TSH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TSH 60 TESTS"
-          name="VIDAS TSH 60 TESTS"
+          name="Part# - 30400, Name - VIDAS TSH 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11436,17 +11525,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FT3 60 TESTS','VIDAS FT3 60 TESTS-total')" />
-      </td>
       <td>30402</td>
       <td>VIDAS FT3 60 TESTS</td>
       <td>5400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FT3 60 TESTS','VIDAS FT3 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FT3 60 TESTS"
-          name="VIDAS FT3 60 TESTS"
+          name="Part# - 30402, Name - VIDAS FT3 60 TESTS"
           disabled="true"
           price="5400"
           gst="5"
@@ -11457,17 +11550,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS T3 60 TESTS','VIDAS T3 60 TESTS-total')" />
-      </td>
       <td>30403</td>
       <td>VIDAS T3 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS T3 60 TESTS','VIDAS T3 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS T3 60 TESTS"
-          name="VIDAS T3 60 TESTS"
+          name="Part# - 30403, Name - VIDAS T3 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11478,17 +11575,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS T4 60 TESTS','VIDAS T4 60 TESTS-total')" />
-      </td>
       <td>30404</td>
       <td>VIDAS T4 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS T4 60 TESTS','VIDAS T4 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS T4 60 TESTS"
-          name="VIDAS T4 60 TESTS"
+          name="Part# - 30404, Name - VIDAS T4 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11499,17 +11600,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HCG 60 TESTS','VIDAS HCG 60 TESTS-total')" />
-      </td>
       <td>30405</td>
       <td>VIDAS HCG 60 TESTS</td>
       <td>7200</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HCG 60 TESTS','VIDAS HCG 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HCG 60 TESTS"
-          name="VIDAS HCG 60 TESTS"
+          name="Part# - 30405, Name - VIDAS HCG 60 TESTS"
           disabled="true"
           price="7200"
           gst="5"
@@ -11520,17 +11625,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS LH 60 TESTS','VIDAS LH 60 TESTS-total')" />
-      </td>
       <td>30406</td>
       <td>VIDAS LH 60 TESTS</td>
       <td>7200</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS LH 60 TESTS','VIDAS LH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS LH 60 TESTS"
-          name="VIDAS LH 60 TESTS"
+          name="Part# - 30406, Name - VIDAS LH 60 TESTS"
           disabled="true"
           price="7200"
           gst="5"
@@ -11541,17 +11650,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FSH 60 TESTS','VIDAS FSH 60 TESTS-total')" />
-      </td>
       <td>30407</td>
       <td>VIDAS FSH 60 TESTS</td>
       <td>7200</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FSH 60 TESTS','VIDAS FSH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FSH 60 TESTS"
-          name="VIDAS FSH 60 TESTS"
+          name="Part# - 30407, Name - VIDAS FSH 60 TESTS"
           disabled="true"
           price="7200"
           gst="5"
@@ -11562,17 +11675,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROGESTERONE 60 TESTS','VIDAS PROGESTERONE 60 TESTS-total')" />
-      </td>
       <td>30409</td>
       <td>VIDAS PROGESTERONE 60 TESTS</td>
       <td>8954</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROGESTERONE 60 TESTS','VIDAS PROGESTERONE 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROGESTERONE 60 TESTS"
-          name="VIDAS PROGESTERONE 60 TESTS"
+          name="Part# - 30409, Name - VIDAS PROGESTERONE 60 TESTS"
           disabled="true"
           price="8954"
           gst="5"
@@ -11583,17 +11700,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROLACTIN 60 TESTS','VIDAS PROLACTIN 60 TESTS-total')" />
-      </td>
       <td>30410</td>
       <td>VIDAS PROLACTIN 60 TESTS</td>
       <td>7200</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROLACTIN 60 TESTS','VIDAS PROLACTIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROLACTIN 60 TESTS"
-          name="VIDAS PROLACTIN 60 TESTS"
+          name="Part# - 30410, Name - VIDAS PROLACTIN 60 TESTS"
           disabled="true"
           price="7200"
           gst="5"
@@ -11604,17 +11725,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FERRITIN 60 TESTS','VIDAS FERRITIN 60 TESTS-total')" />
-      </td>
       <td>30411</td>
       <td>VIDAS FERRITIN 60 TESTS</td>
       <td>9600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FERRITIN 60 TESTS','VIDAS FERRITIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FERRITIN 60 TESTS"
-          name="VIDAS FERRITIN 60 TESTS"
+          name="Part# - 30411, Name - VIDAS FERRITIN 60 TESTS"
           disabled="true"
           price="9600"
           gst="5"
@@ -11625,17 +11750,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS AFP 60 TESTS','VIDAS AFP 60 TESTS-total')" />
-      </td>
       <td>30413</td>
       <td>VIDAS AFP 60 TESTS</td>
       <td>11380</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS AFP 60 TESTS','VIDAS AFP 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS AFP 60 TESTS"
-          name="VIDAS AFP 60 TESTS"
+          name="Part# - 30413, Name - VIDAS AFP 60 TESTS"
           disabled="true"
           price="11380"
           gst="5"
@@ -11646,17 +11775,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS IGE 60 TESTS','VIDAS IGE 60 TESTS-total')" />
-      </td>
       <td>30419</td>
       <td>VIDAS IGE 60 TESTS</td>
       <td>9075</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS IGE 60 TESTS','VIDAS IGE 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS IGE 60 TESTS"
-          name="VIDAS IGE 60 TESTS"
+          name="Part# - 30419, Name - VIDAS IGE 60 TESTS"
           disabled="true"
           price="9075"
           gst="5"
@@ -11667,17 +11800,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS BETA 2 MICROGL. 30 TESTS','VIDAS BETA 2 MICROGL. 30 TESTS-total')" />
-      </td>
       <td>30420</td>
       <td>VIDAS BETA 2 MICROGL. 30 TESTS</td>
       <td>9378</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS BETA 2 MICROGL. 30 TESTS','VIDAS BETA 2 MICROGL. 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS BETA 2 MICROGL. 30 TESTS"
-          name="VIDAS BETA 2 MICROGL. 30 TESTS"
+          name="Part# - 30420, Name - VIDAS BETA 2 MICROGL. 30 TESTS"
           disabled="true"
           price="9378"
           gst="5"
@@ -11688,17 +11825,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CK MB 30TESTS','VIDAS CK MB 30TESTS-total')" />
-      </td>
       <td>30421</td>
       <td>VIDAS CK MB 30TESTS</td>
       <td>4500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CK MB 30TESTS','VIDAS CK MB 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CK MB 30TESTS"
-          name="VIDAS CK MB 30TESTS"
+          name="Part# - 30421, Name - VIDAS CK MB 30TESTS"
           disabled="true"
           price="4500"
           gst="5"
@@ -11709,17 +11850,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 125II 30 TESTS','VIDAS CA 125II 30 TESTS-total')" />
-      </td>
       <td>30426</td>
       <td>VIDAS CA 125II 30 TESTS</td>
       <td>8100</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 125II 30 TESTS','VIDAS CA 125II 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 125II 30 TESTS"
-          name="VIDAS CA 125II 30 TESTS"
+          name="Part# - 30426, Name - VIDAS CA 125II 30 TESTS"
           disabled="true"
           price="8100"
           gst="5"
@@ -11730,17 +11875,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 19-9 30 TESTS','VIDAS CA 19-9 30 TESTS-total')" />
-      </td>
       <td>30427</td>
       <td>VIDAS CA 19-9 30 TESTS</td>
       <td>8100</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 19-9 30 TESTS','VIDAS CA 19-9 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 19-9 30 TESTS"
-          name="VIDAS CA 19-9 30 TESTS"
+          name="Part# - 30427, Name - VIDAS CA 19-9 30 TESTS"
           disabled="true"
           price="8100"
           gst="5"
@@ -11751,17 +11900,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TPSA 60 TESTS','VIDAS TPSA 60 TESTS-total')" />
-      </td>
       <td>30428</td>
       <td>VIDAS TPSA 60 TESTS</td>
       <td>9600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TPSA 60 TESTS','VIDAS TPSA 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TPSA 60 TESTS"
-          name="VIDAS TPSA 60 TESTS"
+          name="Part# - 30428, Name - VIDAS TPSA 60 TESTS"
           disabled="true"
           price="9600"
           gst="5"
@@ -11772,17 +11925,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 15-3 30 TESTS','VIDAS CA 15-3 30 TESTS-total')" />
-      </td>
       <td>30429</td>
       <td>VIDAS CA 15-3 30 TESTS</td>
       <td>8100</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 15-3 30 TESTS','VIDAS CA 15-3 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 15-3 30 TESTS"
-          name="VIDAS CA 15-3 30 TESTS"
+          name="Part# - 30429, Name - VIDAS CA 15-3 30 TESTS"
           disabled="true"
           price="8100"
           gst="5"
@@ -11793,17 +11950,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ESTRADIOL II 60 TESTS','VIDAS ESTRADIOL II 60 TESTS-total')" />
-      </td>
       <td>30431</td>
       <td>VIDAS ESTRADIOL II 60 TESTS</td>
       <td>8954</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ESTRADIOL II 60 TESTS','VIDAS ESTRADIOL II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ESTRADIOL II 60 TESTS"
-          name="VIDAS ESTRADIOL II 60 TESTS"
+          name="Part# - 30431, Name - VIDAS ESTRADIOL II 60 TESTS"
           disabled="true"
           price="8954"
           gst="5"
@@ -11814,17 +11975,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS VWF 30 TESTS','VIDAS VWF 30 TESTS-total')" />
-      </td>
       <td>30436</td>
       <td>VIDAS VWF 30 TESTS</td>
       <td>12826</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS VWF 30 TESTS','VIDAS VWF 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS VWF 30 TESTS"
-          name="VIDAS VWF 30 TESTS"
+          name="Part# - 30436, Name - VIDAS VWF 30 TESTS"
           disabled="true"
           price="12826"
           gst="5"
@@ -11835,17 +12000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBC IGM II 30TESTS','VIDAS HBC IGM II 30TESTS-total')" />
-      </td>
       <td>30439</td>
       <td>VIDAS HBC IGM II 30TESTS</td>
       <td>5929</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBC IGM II 30TESTS','VIDAS HBC IGM II 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBC IGM II 30TESTS"
-          name="VIDAS HBC IGM II 30TESTS"
+          name="Part# - 30439, Name - VIDAS HBC IGM II 30TESTS"
           disabled="true"
           price="5929"
           gst="5"
@@ -11856,17 +12025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FPSA 30TESTS','VIDAS FPSA 30TESTS-total')" />
-      </td>
       <td>30440</td>
       <td>VIDAS FPSA 30TESTS</td>
       <td>6050</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FPSA 30TESTS','VIDAS FPSA 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FPSA 30TESTS"
-          name="VIDAS FPSA 30TESTS"
+          name="Part# - 30440, Name - VIDAS FPSA 30TESTS"
           disabled="true"
           price="6050"
           gst="5"
@@ -11877,17 +12050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TSH3 60 T','VIDAS TSH3 60 T-total')" />
-      </td>
       <td>30441</td>
       <td>VIDAS TSH3 60 T</td>
       <td>6000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TSH3 60 T','VIDAS TSH3 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TSH3 60 T"
-          name="VIDAS TSH3 60 T"
+          name="Part# - 30441, Name - VIDAS TSH3 60 T"
           disabled="true"
           price="6000"
           gst="5"
@@ -11898,17 +12075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HIV DUO ULTRA 60 TESTS','VIDAS HIV DUO ULTRA 60 TESTS-total')" />
-      </td>
       <td>30443</td>
       <td>VIDAS HIV DUO ULTRA 60 TESTS</td>
       <td>6600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HIV DUO ULTRA 60 TESTS','VIDAS HIV DUO ULTRA 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HIV DUO ULTRA 60 TESTS"
-          name="VIDAS HIV DUO ULTRA 60 TESTS"
+          name="Part# - 30443, Name - VIDAS HIV DUO ULTRA 60 TESTS"
           disabled="true"
           price="6600"
           gst="5"
@@ -11919,17 +12100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MYOGLOBINE 30 TESTS','VIDAS MYOGLOBINE 30 TESTS-total')" />
-      </td>
       <td>30446</td>
       <td>VIDAS MYOGLOBINE 30 TESTS</td>
       <td>9075</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MYOGLOBINE 30 TESTS','VIDAS MYOGLOBINE 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MYOGLOBINE 30 TESTS"
-          name="VIDAS MYOGLOBINE 30 TESTS"
+          name="Part# - 30446, Name - VIDAS MYOGLOBINE 30 TESTS"
           disabled="true"
           price="9075"
           gst="5"
@@ -11940,17 +12125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS BRAHMS PROCALCITONIN 60T','VIDAS BRAHMS PROCALCITONIN 60T-total')" />
-      </td>
       <td>30450</td>
       <td>VIDAS BRAHMS PROCALCITONIN 60T</td>
       <td>51000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS BRAHMS PROCALCITONIN 60T','VIDAS BRAHMS PROCALCITONIN 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS BRAHMS PROCALCITONIN 60T"
-          name="VIDAS BRAHMS PROCALCITONIN 60T"
+          name="Part# - 30450, Name - VIDAS BRAHMS PROCALCITONIN 60T"
           disabled="true"
           price="51000"
           gst="5"
@@ -11961,17 +12150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CEA (S) 60 TESTS','VIDAS CEA (S) 60 TESTS-total')" />
-      </td>
       <td>30453</td>
       <td>VIDAS CEA (S) 60 TESTS</td>
       <td>12070</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CEA (S) 60 TESTS','VIDAS CEA (S) 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CEA (S) 60 TESTS"
-          name="VIDAS CEA (S) 60 TESTS"
+          name="Part# - 30453, Name - VIDAS CEA (S) 60 TESTS"
           disabled="true"
           price="12070"
           gst="5"
@@ -11982,17 +12175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS NT-PROBNP 2 60 TESTS','VIDAS NT-PROBNP 2 60 TESTS-total')" />
-      </td>
       <td>30458</td>
       <td>VIDAS NT-PROBNP 2 60 TESTS</td>
       <td>33000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS NT-PROBNP 2 60 TESTS','VIDAS NT-PROBNP 2 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS NT-PROBNP 2 60 TESTS"
-          name="VIDAS NT-PROBNP 2 60 TESTS"
+          name="Part# - 30458, Name - VIDAS NT-PROBNP 2 60 TESTS"
           disabled="true"
           price="33000"
           gst="5"
@@ -12003,17 +12200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FT4 60 TEST','VIDAS FT4 60 TEST-total')" />
-      </td>
       <td>30459</td>
       <td>VIDAS FT4 60 TEST</td>
       <td>5400</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FT4 60 TEST','VIDAS FT4 60 TEST-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FT4 60 TEST"
-          name="VIDAS FT4 60 TEST"
+          name="Part# - 30459, Name - VIDAS FT4 60 TEST"
           disabled="true"
           price="5400"
           gst="5"
@@ -12024,17 +12225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-TPO 30 T','VIDAS ANTI-TPO 30 T-total')" />
-      </td>
       <td>30461</td>
       <td>VIDAS ANTI-TPO 30 T</td>
       <td>7500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-TPO 30 T','VIDAS ANTI-TPO 30 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-TPO 30 T"
-          name="VIDAS ANTI-TPO 30 T"
+          name="Part# - 30461, Name - VIDAS ANTI-TPO 30 T"
           disabled="true"
           price="7500"
           gst="5"
@@ -12045,17 +12250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-TG 30 T','VIDAS ANTI-TG 30 T-total')" />
-      </td>
       <td>30462</td>
       <td>VIDAS ANTI-TG 30 T</td>
       <td>7500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-TG 30 T','VIDAS ANTI-TG 30 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-TG 30 T"
-          name="VIDAS ANTI-TG 30 T"
+          name="Part# - 30462, Name - VIDAS ANTI-TG 30 T"
           disabled="true"
           price="7500"
           gst="5"
@@ -12066,17 +12275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOTAL 25OH VITAMIN D 60T','VIDAS TOTAL 25OH VITAMIN D 60T-total')" />
-      </td>
       <td>30463</td>
       <td>VIDAS TOTAL 25OH VITAMIN D 60T</td>
       <td>27000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOTAL 25OH VITAMIN D 60T','VIDAS TOTAL 25OH VITAMIN D 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOTAL 25OH VITAMIN D 60T"
-          name="VIDAS TOTAL 25OH VITAMIN D 60T"
+          name="Part# - 30463, Name - VIDAS TOTAL 25OH VITAMIN D 60T"
           disabled="true"
           price="27000"
           gst="5"
@@ -12087,17 +12300,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS DIGOXIN 60 TESTS','VIDAS DIGOXIN 60 TESTS-total')" />
-      </td>
       <td>30603</td>
       <td>VIDAS DIGOXIN 60 TESTS</td>
       <td>10285</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS DIGOXIN 60 TESTS','VIDAS DIGOXIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS DIGOXIN 60 TESTS"
-          name="VIDAS DIGOXIN 60 TESTS"
+          name="Part# - 30603, Name - VIDAS DIGOXIN 60 TESTS"
           disabled="true"
           price="10285"
           gst="5"
@@ -12108,17 +12325,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FREE HUMAN SERUM','FREE HUMAN SERUM-total')" />
-      </td>
       <td>66581</td>
       <td>FREE HUMAN SERUM</td>
       <td>1755</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FREE HUMAN SERUM','FREE HUMAN SERUM-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FREE HUMAN SERUM"
-          name="FREE HUMAN SERUM"
+          name="Part# - 66581, Name - FREE HUMAN SERUM"
           disabled="true"
           price="1755"
           gst="5"
@@ -12129,17 +12350,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TESTOSTERONE II 30 TESTS','VIDAS TESTOSTERONE II 30 TESTS-total')" />
-      </td>
       <td>414320</td>
       <td>VIDAS TESTOSTERONE II 30 TESTS</td>
       <td>6050</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TESTOSTERONE II 30 TESTS','VIDAS TESTOSTERONE II 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TESTOSTERONE II 30 TESTS"
-          name="VIDAS TESTOSTERONE II 30 TESTS"
+          name="Part# - 414320, Name - VIDAS TESTOSTERONE II 30 TESTS"
           disabled="true"
           price="6050"
           gst="5"
@@ -12150,17 +12375,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HS TROPONIN I 60 TESTS','VIDAS HS TROPONIN I 60 TESTS-total')" />
-      </td>
       <td>415386</td>
       <td>VIDAS HS TROPONIN I 60 TESTS</td>
       <td>18000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HS TROPONIN I 60 TESTS','VIDAS HS TROPONIN I 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HS TROPONIN I 60 TESTS"
-          name="VIDAS HS TROPONIN I 60 TESTS"
+          name="Part# - 415386, Name - VIDAS HS TROPONIN I 60 TESTS"
           disabled="true"
           price="18000"
           gst="5"
@@ -12171,17 +12400,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS AMH 30 TESTS','VIDAS AMH 30 TESTS-total')" />
-      </td>
       <td>417011</td>
       <td>VIDAS AMH 30 TESTS</td>
       <td>30000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS AMH 30 TESTS','VIDAS AMH 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS AMH 30 TESTS"
-          name="VIDAS AMH 30 TESTS"
+          name="Part# - 417011, Name - VIDAS AMH 30 TESTS"
           disabled="true"
           price="30000"
           gst="5"
@@ -12192,17 +12425,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS D-DIMER EXCLUSION II 60T','VIDAS D-DIMER EXCLUSION II 60T-total')" />
-      </td>
       <td>30455-02</td>
       <td>VIDAS D-DIMER EXCLUSION II 60T</td>
       <td>21000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS D-DIMER EXCLUSION II 60T','VIDAS D-DIMER EXCLUSION II 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS D-DIMER EXCLUSION II 60T"
-          name="VIDAS D-DIMER EXCLUSION II 60T"
+          name="Part# - 30455-02, Name - VIDAS D-DIMER EXCLUSION II 60T"
           disabled="true"
           price="21000"
           gst="5"
@@ -12218,6 +12455,13 @@
       <td>
         <b>Rs<span id="total">0</span></b>
       </td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align: right">
+        One last thing, specify your Purchase Order number.<br />You can follow up with us with the order number for
+        updates.
+      </td>
+      <td><input name="purchase-order-no" placeholder="unique/random number" /></td>
     </tr>
   </table>
 

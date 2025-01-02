@@ -10941,6 +10941,7 @@
         totalExpense -= total
       }
       span.setAttribute("total", 0)
+      document.getElementById("total").innerText = totalExpense.toLocaleString()
     }
   }
 
@@ -10964,11 +10965,11 @@
 
   <table class="table">
     <tr>
-      <th>Select</th>
       <th>Part #</th>
       <th style="text-align: left">Name</th>
       <th>Price</th>
       <th>GST</th>
+      <th>Select</th>
       <th>Quantity</th>
       <th style="text-align: left; padding-left: 20px !important">Total</th>
     </tr>
@@ -10979,6 +10980,13 @@
       <td>
         <b>Rs<span id="total">0</span></b>
       </td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align: right">
+        One last thing, specify your Purchase Order number.<br />You can follow up with us with the order number for
+        updates.
+      </td>
+      <td><input name="purchase-order-no" placeholder="unique/random number" /></td>
     </tr>
   </table>
 

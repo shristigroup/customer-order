@@ -10941,6 +10941,7 @@
         totalExpense -= total
       }
       span.setAttribute("total", 0)
+      document.getElementById("total").innerText = totalExpense.toLocaleString()
     }
   }
 
@@ -10964,27 +10965,31 @@
 
   <table class="table">
     <tr>
-      <th>Select</th>
       <th>Part #</th>
       <th style="text-align: left">Name</th>
       <th>Price</th>
       <th>GST</th>
+      <th>Select</th>
       <th>Quantity</th>
       <th style="text-align: left; padding-left: 20px !important">Total</th>
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'Agfa Dry Star','Agfa Dry Star-total')" />
-      </td>
       <td>101</td>
       <td>Agfa Dry Star</td>
       <td>3500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'Agfa Dry Star','Agfa Dry Star-total')"
+        />
+      </td>
+      <td>
+        <input
           id="Agfa Dry Star"
-          name="Agfa Dry Star"
+          name="Part# - 101, Name - Agfa Dry Star"
           disabled="true"
           price="3500"
           gst="5"
@@ -10995,17 +11000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AMPLIFIED MTD M.TUBERC.DIRECT','AMPLIFIED MTD M.TUBERC.DIRECT-total')" />
-      </td>
       <td>102</td>
       <td>AMPLIFIED MTD M.TUBERC.DIRECT</td>
       <td>1000</td>
       <td>10%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AMPLIFIED MTD M.TUBERC.DIRECT','AMPLIFIED MTD M.TUBERC.DIRECT-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AMPLIFIED MTD M.TUBERC.DIRECT"
-          name="AMPLIFIED MTD M.TUBERC.DIRECT"
+          name="Part# - 102, Name - AMPLIFIED MTD M.TUBERC.DIRECT"
           disabled="true"
           price="1000"
           gst="10"
@@ -11016,17 +11025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'Aquasil Ultra Auto Mix 50','Aquasil Ultra Auto Mix 50-total')" />
-      </td>
       <td>103</td>
       <td>Aquasil Ultra Auto Mix 50</td>
       <td>5000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'Aquasil Ultra Auto Mix 50','Aquasil Ultra Auto Mix 50-total')"
+        />
+      </td>
+      <td>
+        <input
           id="Aquasil Ultra Auto Mix 50"
-          name="Aquasil Ultra Auto Mix 50"
+          name="Part# - 103, Name - Aquasil Ultra Auto Mix 50"
           disabled="true"
           price="5000"
           gst="5"
@@ -11037,17 +11050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'Lead Apron','Lead Apron-total')" />
-      </td>
       <td>104</td>
       <td>Lead Apron</td>
       <td>9000</td>
       <td>10%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'Lead Apron','Lead Apron-total')"
+        />
+      </td>
+      <td>
+        <input
           id="Lead Apron"
-          name="Lead Apron"
+          name="Part# - 104, Name - Lead Apron"
           disabled="true"
           price="9000"
           gst="10"
@@ -11058,17 +11075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'Vidas B12','Vidas B12-total')" />
-      </td>
       <td>105</td>
       <td>Vidas B12</td>
       <td>220</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'Vidas B12','Vidas B12-total')"
+        />
+      </td>
+      <td>
+        <input
           id="Vidas B12"
-          name="Vidas B12"
+          name="Part# - 105, Name - Vidas B12"
           disabled="true"
           price="220"
           gst="5"
@@ -11084,6 +11105,13 @@
       <td>
         <b>Rs<span id="total">0</span></b>
       </td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align: right">
+        One last thing, specify your Purchase Order number.<br />You can follow up with us with the order number for
+        updates.
+      </td>
+      <td><input name="purchase-order-no" placeholder="unique/random number" /></td>
     </tr>
   </table>
 

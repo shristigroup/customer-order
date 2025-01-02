@@ -10941,6 +10941,7 @@
         totalExpense -= total
       }
       span.setAttribute("total", 0)
+      document.getElementById("total").innerText = totalExpense.toLocaleString()
     }
   }
 
@@ -10964,27 +10965,31 @@
 
   <table class="table">
     <tr>
-      <th>Select</th>
       <th>Part #</th>
       <th style="text-align: left">Name</th>
       <th>Price</th>
       <th>GST</th>
+      <th>Select</th>
       <th>Quantity</th>
       <th style="text-align: left; padding-left: 20px !important">Total</th>
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ATB FUNGUS 3','ATB FUNGUS 3-total')" />
-      </td>
       <td>14204</td>
       <td>ATB FUNGUS 3</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ATB FUNGUS 3','ATB FUNGUS 3-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ATB FUNGUS 3"
-          name="ATB FUNGUS 3"
+          name="Part# - 14204, Name - ATB FUNGUS 3"
           disabled="true"
           price="5000"
           gst="12"
@@ -10995,17 +11000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ATB G- 5','ATB G- 5-total')" />
-      </td>
       <td>14315</td>
       <td>ATB G- 5</td>
       <td>4250</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ATB G- 5','ATB G- 5-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ATB G- 5"
-          name="ATB G- 5"
+          name="Part# - 14315, Name - ATB G- 5"
           disabled="true"
           price="4250"
           gst="18"
@@ -11016,17 +11025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ATB PSE 5','ATB PSE 5-total')" />
-      </td>
       <td>14345</td>
       <td>ATB PSE 5</td>
       <td>4250</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ATB PSE 5','ATB PSE 5-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ATB PSE 5"
-          name="ATB PSE 5"
+          name="Part# - 14345, Name - ATB PSE 5"
           disabled="true"
           price="4250"
           gst="18"
@@ -11037,17 +11050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'RAPID ATB E 4','RAPID ATB E 4-total')" />
-      </td>
       <td>14384</td>
       <td>RAPID ATB E 4</td>
       <td>4250</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'RAPID ATB E 4','RAPID ATB E 4-total')"
+        />
+      </td>
+      <td>
+        <input
           id="RAPID ATB E 4"
-          name="RAPID ATB E 4"
+          name="Part# - 14384, Name - RAPID ATB E 4"
           disabled="true"
           price="4250"
           gst="18"
@@ -11058,17 +11075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ATB MEDIUM','ATB MEDIUM-total')" />
-      </td>
       <td>14960</td>
       <td>ATB MEDIUM</td>
       <td>1950</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ATB MEDIUM','ATB MEDIUM-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ATB MEDIUM"
-          name="ATB MEDIUM"
+          name="Part# - 14960, Name - ATB MEDIUM"
           disabled="true"
           price="1950"
           gst="18"
@@ -11079,17 +11100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'STERILE TIPS 500','STERILE TIPS 500-total')" />
-      </td>
       <td>15710</td>
       <td>STERILE TIPS 500</td>
       <td>3000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'STERILE TIPS 500','STERILE TIPS 500-total')"
+        />
+      </td>
+      <td>
+        <input
           id="STERILE TIPS 500"
-          name="STERILE TIPS 500"
+          name="Part# - 15710, Name - STERILE TIPS 500"
           disabled="true"
           price="3000"
           gst="18"
@@ -11100,17 +11125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'API NACL 0.85% MED 2ML 100AMP','API NACL 0.85% MED 2ML 100AMP-total')" />
-      </td>
       <td>20070</td>
       <td>API NACL 0.85% MED 2ML 100AMP</td>
       <td>1500</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'API NACL 0.85% MED 2ML 100AMP','API NACL 0.85% MED 2ML 100AMP-total')"
+        />
+      </td>
+      <td>
+        <input
           id="API NACL 0.85% MED 2ML 100AMP"
-          name="API NACL 0.85% MED 2ML 100AMP"
+          name="Part# - 20070, Name - API NACL 0.85% MED 2ML 100AMP"
           disabled="true"
           price="1500"
           gst="12"
@@ -11121,17 +11150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GN TEST KIT VTK2 20CARDS','GN TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21341</td>
       <td>GN TEST KIT VTK2 20CARDS</td>
       <td>4600</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GN TEST KIT VTK2 20CARDS','GN TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GN TEST KIT VTK2 20CARDS"
-          name="GN TEST KIT VTK2 20CARDS"
+          name="Part# - 21341, Name - GN TEST KIT VTK2 20CARDS"
           disabled="true"
           price="4600"
           gst="12"
@@ -11142,17 +11175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GP TEST KIT VTK2 20CARDS','GP TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21342</td>
       <td>GP TEST KIT VTK2 20CARDS</td>
       <td>4600</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GP TEST KIT VTK2 20CARDS','GP TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GP TEST KIT VTK2 20CARDS"
-          name="GP TEST KIT VTK2 20CARDS"
+          name="Part# - 21342, Name - GP TEST KIT VTK2 20CARDS"
           disabled="true"
           price="4600"
           gst="12"
@@ -11163,17 +11200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'YST TEST KIT VTK2 20CARDS','YST TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21343</td>
       <td>YST TEST KIT VTK2 20CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'YST TEST KIT VTK2 20CARDS','YST TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="YST TEST KIT VTK2 20CARDS"
-          name="YST TEST KIT VTK2 20CARDS"
+          name="Part# - 21343, Name - YST TEST KIT VTK2 20CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -11184,17 +11225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BCL TEST KIT VTK2 20CARDS','BCL TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21345</td>
       <td>BCL TEST KIT VTK2 20CARDS</td>
       <td>9454</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BCL TEST KIT VTK2 20CARDS','BCL TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BCL TEST KIT VTK2 20CARDS"
-          name="BCL TEST KIT VTK2 20CARDS"
+          name="Part# - 21345, Name - BCL TEST KIT VTK2 20CARDS"
           disabled="true"
           price="9454"
           gst="12"
@@ -11205,17 +11250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'NH TEST KIT VTK2 20CARDS','NH TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21346</td>
       <td>NH TEST KIT VTK2 20CARDS</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'NH TEST KIT VTK2 20CARDS','NH TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="NH TEST KIT VTK2 20CARDS"
-          name="NH TEST KIT VTK2 20CARDS"
+          name="Part# - 21346, Name - NH TEST KIT VTK2 20CARDS"
           disabled="true"
           price="5000"
           gst="12"
@@ -11226,17 +11275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ANC TEST KIT VTK2 20CARDS','ANC TEST KIT VTK2 20CARDS-total')" />
-      </td>
       <td>21347</td>
       <td>ANC TEST KIT VTK2 20CARDS</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ANC TEST KIT VTK2 20CARDS','ANC TEST KIT VTK2 20CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ANC TEST KIT VTK2 20CARDS"
-          name="ANC TEST KIT VTK2 20CARDS"
+          name="Part# - 21347, Name - ANC TEST KIT VTK2 20CARDS"
           disabled="true"
           price="5000"
           gst="12"
@@ -11247,17 +11300,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROTEIN C 30TESTS','VIDAS PROTEIN C 30TESTS-total')" />
-      </td>
       <td>30115</td>
       <td>VIDAS PROTEIN C 30TESTS</td>
       <td>10350</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROTEIN C 30TESTS','VIDAS PROTEIN C 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROTEIN C 30TESTS"
-          name="VIDAS PROTEIN C 30TESTS"
+          name="Part# - 30115, Name - VIDAS PROTEIN C 30TESTS"
           disabled="true"
           price="10350"
           gst="5"
@@ -11268,17 +11325,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CD A/B 60 TESTS','VIDAS CD A/B 60 TESTS-total')" />
-      </td>
       <td>30118</td>
       <td>VIDAS CD A/B 60 TESTS</td>
       <td>18000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CD A/B 60 TESTS','VIDAS CD A/B 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CD A/B 60 TESTS"
-          name="VIDAS CD A/B 60 TESTS"
+          name="Part# - 30118, Name - VIDAS CD A/B 60 TESTS"
           disabled="true"
           price="18000"
           gst="5"
@@ -11289,17 +11350,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS H. PYLORI IGG 30 TESTS','VIDAS H. PYLORI IGG 30 TESTS-total')" />
-      </td>
       <td>30192</td>
       <td>VIDAS H. PYLORI IGG 30 TESTS</td>
       <td>7590</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS H. PYLORI IGG 30 TESTS','VIDAS H. PYLORI IGG 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS H. PYLORI IGG 30 TESTS"
-          name="VIDAS H. PYLORI IGG 30 TESTS"
+          name="Part# - 30192, Name - VIDAS H. PYLORI IGG 30 TESTS"
           disabled="true"
           price="7590"
           gst="5"
@@ -11310,17 +11375,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGM 60 TESTS','VIDAS TOXO IGM 60 TESTS-total')" />
-      </td>
       <td>30202</td>
       <td>VIDAS TOXO IGM 60 TESTS</td>
       <td>8280</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGM 60 TESTS','VIDAS TOXO IGM 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGM 60 TESTS"
-          name="VIDAS TOXO IGM 60 TESTS"
+          name="Part# - 30202, Name - VIDAS TOXO IGM 60 TESTS"
           disabled="true"
           price="8280"
           gst="5"
@@ -11331,17 +11400,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CMV IGG 60 TESTS','VIDAS CMV IGG 60 TESTS-total')" />
-      </td>
       <td>30204</td>
       <td>VIDAS CMV IGG 60 TESTS</td>
       <td>7590</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CMV IGG 60 TESTS','VIDAS CMV IGG 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CMV IGG 60 TESTS"
-          name="VIDAS CMV IGG 60 TESTS"
+          name="Part# - 30204, Name - VIDAS CMV IGG 60 TESTS"
           disabled="true"
           price="7590"
           gst="5"
@@ -11352,17 +11425,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CMV IGM 30 TESTS','VIDAS CMV IGM 30 TESTS-total')" />
-      </td>
       <td>30205</td>
       <td>VIDAS CMV IGM 30 TESTS</td>
       <td>4830</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CMV IGM 30 TESTS','VIDAS CMV IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CMV IGM 30 TESTS"
-          name="VIDAS CMV IGM 30 TESTS"
+          name="Part# - 30205, Name - VIDAS CMV IGM 30 TESTS"
           disabled="true"
           price="4830"
           gst="5"
@@ -11373,17 +11450,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGG II 60 TESTS','VIDAS TOXO IGG II 60 TESTS-total')" />
-      </td>
       <td>30210</td>
       <td>VIDAS TOXO IGG II 60 TESTS</td>
       <td>7590</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGG II 60 TESTS','VIDAS TOXO IGG II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGG II 60 TESTS"
-          name="VIDAS TOXO IGG II 60 TESTS"
+          name="Part# - 30210, Name - VIDAS TOXO IGG II 60 TESTS"
           disabled="true"
           price="7590"
           gst="5"
@@ -11394,17 +11475,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS RUB IGM 30 TESTS','VIDAS RUB IGM 30 TESTS-total')" />
-      </td>
       <td>30214</td>
       <td>VIDAS RUB IGM 30 TESTS</td>
       <td>4830</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS RUB IGM 30 TESTS','VIDAS RUB IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS RUB IGM 30 TESTS"
-          name="VIDAS RUB IGM 30 TESTS"
+          name="Part# - 30214, Name - VIDAS RUB IGM 30 TESTS"
           disabled="true"
           price="4830"
           gst="5"
@@ -11415,17 +11500,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS VARICEL. ZOSTER IGG 60 T','VIDAS VARICEL. ZOSTER IGG 60 T-total')" />
-      </td>
       <td>41</td>
       <td>VIDAS VARICEL. ZOSTER IGG 60 T</td>
       <td>13800</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS VARICEL. ZOSTER IGG 60 T','VIDAS VARICEL. ZOSTER IGG 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS VARICEL. ZOSTER IGG 60 T"
-          name="VIDAS VARICEL. ZOSTER IGG 60 T"
+          name="Part# - 41, Name - VIDAS VARICEL. ZOSTER IGG 60 T"
           disabled="true"
           price="13800"
           gst="5"
@@ -11436,17 +11525,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MUMPS IGG 60TESTS','VIDAS MUMPS IGG 60TESTS-total')" />
-      </td>
       <td>30218</td>
       <td>VIDAS MUMPS IGG 60TESTS</td>
       <td>13800</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MUMPS IGG 60TESTS','VIDAS MUMPS IGG 60TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MUMPS IGG 60TESTS"
-          name="VIDAS MUMPS IGG 60TESTS"
+          name="Part# - 30218, Name - VIDAS MUMPS IGG 60TESTS"
           disabled="true"
           price="13800"
           gst="5"
@@ -11457,17 +11550,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MEASLES IGG 60TESTS','VIDAS MEASLES IGG 60TESTS-total')" />
-      </td>
       <td>30219</td>
       <td>VIDAS MEASLES IGG 60TESTS</td>
       <td>13800</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MEASLES IGG 60TESTS','VIDAS MEASLES IGG 60TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MEASLES IGG 60TESTS"
-          name="VIDAS MEASLES IGG 60TESTS"
+          name="Part# - 30219, Name - VIDAS MEASLES IGG 60TESTS"
           disabled="true"
           price="13800"
           gst="5"
@@ -11478,17 +11575,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS RUB IGG II 60 TESTS','VIDAS RUB IGG II 60 TESTS-total')" />
-      </td>
       <td>30221</td>
       <td>VIDAS RUB IGG II 60 TESTS</td>
       <td>7590</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS RUB IGG II 60 TESTS','VIDAS RUB IGG II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS RUB IGG II 60 TESTS"
-          name="VIDAS RUB IGG II 60 TESTS"
+          name="Part# - 30221, Name - VIDAS RUB IGG II 60 TESTS"
           disabled="true"
           price="7590"
           gst="5"
@@ -11499,17 +11600,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOXO IGG AVIDITY 30TESTS','VIDAS TOXO IGG AVIDITY 30TESTS-total')" />
-      </td>
       <td>30222</td>
       <td>VIDAS TOXO IGG AVIDITY 30TESTS</td>
       <td>8625</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOXO IGG AVIDITY 30TESTS','VIDAS TOXO IGG AVIDITY 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOXO IGG AVIDITY 30TESTS"
-          name="VIDAS TOXO IGG AVIDITY 30TESTS"
+          name="Part# - 30222, Name - VIDAS TOXO IGG AVIDITY 30TESTS"
           disabled="true"
           price="8625"
           gst="5"
@@ -11520,17 +11625,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBE/ANTI-HBE 30 TESTS','VIDAS HBE/ANTI-HBE 30 TESTS-total')" />
-      </td>
       <td>30305</td>
       <td>VIDAS HBE/ANTI-HBE 30 TESTS</td>
       <td>6210</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBE/ANTI-HBE 30 TESTS','VIDAS HBE/ANTI-HBE 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBE/ANTI-HBE 30 TESTS"
-          name="VIDAS HBE/ANTI-HBE 30 TESTS"
+          name="Part# - 30305, Name - VIDAS HBE/ANTI-HBE 30 TESTS"
           disabled="true"
           price="6210"
           gst="5"
@@ -11541,17 +11650,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HAV IGM 30 TESTS','VIDAS HAV IGM 30 TESTS-total')" />
-      </td>
       <td>30307</td>
       <td>VIDAS HAV IGM 30 TESTS</td>
       <td>6210</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HAV IGM 30 TESTS','VIDAS HAV IGM 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HAV IGM 30 TESTS"
-          name="VIDAS HAV IGM 30 TESTS"
+          name="Part# - 30307, Name - VIDAS HAV IGM 30 TESTS"
           disabled="true"
           price="6210"
           gst="5"
@@ -11562,17 +11675,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HCV 60 TESTS','VIDAS ANTI-HCV 60 TESTS-total')" />
-      </td>
       <td>30308</td>
       <td>VIDAS ANTI-HCV 60 TESTS</td>
       <td>8200</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HCV 60 TESTS','VIDAS ANTI-HCV 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HCV 60 TESTS"
-          name="VIDAS ANTI-HCV 60 TESTS"
+          name="Part# - 30308, Name - VIDAS ANTI-HCV 60 TESTS"
           disabled="true"
           price="8200"
           gst="5"
@@ -11583,17 +11700,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HAV TOTAL 30T','VIDAS ANTI-HAV TOTAL 30T-total')" />
-      </td>
       <td>30312</td>
       <td>VIDAS ANTI-HAV TOTAL 30T</td>
       <td>6210</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HAV TOTAL 30T','VIDAS ANTI-HAV TOTAL 30T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HAV TOTAL 30T"
-          name="VIDAS ANTI-HAV TOTAL 30T"
+          name="Part# - 30312, Name - VIDAS ANTI-HAV TOTAL 30T"
           disabled="true"
           price="6210"
           gst="5"
@@ -11604,17 +11725,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-HBC TOTAL II 60 T','VIDAS ANTI-HBC TOTAL II 60 T-total')" />
-      </td>
       <td>30314</td>
       <td>VIDAS ANTI-HBC TOTAL II 60 T</td>
       <td>10350</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-HBC TOTAL II 60 T','VIDAS ANTI-HBC TOTAL II 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-HBC TOTAL II 60 T"
-          name="VIDAS ANTI-HBC TOTAL II 60 T"
+          name="Part# - 30314, Name - VIDAS ANTI-HBC TOTAL II 60 T"
           disabled="true"
           price="10350"
           gst="5"
@@ -11625,17 +11750,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBS AG ULTRA 60 T','VIDAS HBS AG ULTRA 60 T-total')" />
-      </td>
       <td>30315</td>
       <td>VIDAS HBS AG ULTRA 60 T</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBS AG ULTRA 60 T','VIDAS HBS AG ULTRA 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBS AG ULTRA 60 T"
-          name="VIDAS HBS AG ULTRA 60 T"
+          name="Part# - 30315, Name - VIDAS HBS AG ULTRA 60 T"
           disabled="true"
           price="7245"
           gst="5"
@@ -11646,17 +11775,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBSAG ULTRA CONFIRMATION','VIDAS HBSAG ULTRA CONFIRMATION-total')" />
-      </td>
       <td>30317</td>
       <td>VIDAS HBSAG ULTRA CONFIRMATION</td>
       <td>3450</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBSAG ULTRA CONFIRMATION','VIDAS HBSAG ULTRA CONFIRMATION-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBSAG ULTRA CONFIRMATION"
-          name="VIDAS HBSAG ULTRA CONFIRMATION"
+          name="Part# - 30317, Name - VIDAS HBSAG ULTRA CONFIRMATION"
           disabled="true"
           price="3450"
           gst="5"
@@ -11667,17 +11800,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI HBS TOTAL II 60T','VIDAS ANTI HBS TOTAL II 60T-total')" />
-      </td>
       <td>30318</td>
       <td>VIDAS ANTI HBS TOTAL II 60T</td>
       <td>10350</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI HBS TOTAL II 60T','VIDAS ANTI HBS TOTAL II 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI HBS TOTAL II 60T"
-          name="VIDAS ANTI HBS TOTAL II 60T"
+          name="Part# - 30318, Name - VIDAS ANTI HBS TOTAL II 60T"
           disabled="true"
           price="10350"
           gst="5"
@@ -11688,17 +11825,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TSH 60 TESTS','VIDAS TSH 60 TESTS-total')" />
-      </td>
       <td>30400</td>
       <td>VIDAS TSH 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TSH 60 TESTS','VIDAS TSH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TSH 60 TESTS"
-          name="VIDAS TSH 60 TESTS"
+          name="Part# - 30400, Name - VIDAS TSH 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11709,17 +11850,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FT3 60 TESTS','VIDAS FT3 60 TESTS-total')" />
-      </td>
       <td>30402</td>
       <td>VIDAS FT3 60 TESTS</td>
       <td>5455</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FT3 60 TESTS','VIDAS FT3 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FT3 60 TESTS"
-          name="VIDAS FT3 60 TESTS"
+          name="Part# - 30402, Name - VIDAS FT3 60 TESTS"
           disabled="true"
           price="5455"
           gst="5"
@@ -11730,17 +11875,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS T3 60 TESTS','VIDAS T3 60 TESTS-total')" />
-      </td>
       <td>30403</td>
       <td>VIDAS T3 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS T3 60 TESTS','VIDAS T3 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS T3 60 TESTS"
-          name="VIDAS T3 60 TESTS"
+          name="Part# - 30403, Name - VIDAS T3 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11751,17 +11900,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS T4 60 TESTS','VIDAS T4 60 TESTS-total')" />
-      </td>
       <td>30404</td>
       <td>VIDAS T4 60 TESTS</td>
       <td>3600</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS T4 60 TESTS','VIDAS T4 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS T4 60 TESTS"
-          name="VIDAS T4 60 TESTS"
+          name="Part# - 30404, Name - VIDAS T4 60 TESTS"
           disabled="true"
           price="3600"
           gst="5"
@@ -11772,17 +11925,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HCG 60 TESTS','VIDAS HCG 60 TESTS-total')" />
-      </td>
       <td>30405</td>
       <td>VIDAS HCG 60 TESTS</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HCG 60 TESTS','VIDAS HCG 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HCG 60 TESTS"
-          name="VIDAS HCG 60 TESTS"
+          name="Part# - 30405, Name - VIDAS HCG 60 TESTS"
           disabled="true"
           price="7245"
           gst="5"
@@ -11793,17 +11950,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS LH 60 TESTS','VIDAS LH 60 TESTS-total')" />
-      </td>
       <td>30406</td>
       <td>VIDAS LH 60 TESTS</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS LH 60 TESTS','VIDAS LH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS LH 60 TESTS"
-          name="VIDAS LH 60 TESTS"
+          name="Part# - 30406, Name - VIDAS LH 60 TESTS"
           disabled="true"
           price="7245"
           gst="5"
@@ -11814,17 +11975,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FSH 60 TESTS','VIDAS FSH 60 TESTS-total')" />
-      </td>
       <td>30407</td>
       <td>VIDAS FSH 60 TESTS</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FSH 60 TESTS','VIDAS FSH 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FSH 60 TESTS"
-          name="VIDAS FSH 60 TESTS"
+          name="Part# - 30407, Name - VIDAS FSH 60 TESTS"
           disabled="true"
           price="7245"
           gst="5"
@@ -11835,17 +12000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROGESTERONE 60 TESTS','VIDAS PROGESTERONE 60 TESTS-total')" />
-      </td>
       <td>30409</td>
       <td>VIDAS PROGESTERONE 60 TESTS</td>
       <td>8625</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROGESTERONE 60 TESTS','VIDAS PROGESTERONE 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROGESTERONE 60 TESTS"
-          name="VIDAS PROGESTERONE 60 TESTS"
+          name="Part# - 30409, Name - VIDAS PROGESTERONE 60 TESTS"
           disabled="true"
           price="8625"
           gst="5"
@@ -11856,17 +12025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS PROLACTIN 60 TESTS','VIDAS PROLACTIN 60 TESTS-total')" />
-      </td>
       <td>30410</td>
       <td>VIDAS PROLACTIN 60 TESTS</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS PROLACTIN 60 TESTS','VIDAS PROLACTIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS PROLACTIN 60 TESTS"
-          name="VIDAS PROLACTIN 60 TESTS"
+          name="Part# - 30410, Name - VIDAS PROLACTIN 60 TESTS"
           disabled="true"
           price="7245"
           gst="5"
@@ -11877,17 +12050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FERRITIN 60 TESTS','VIDAS FERRITIN 60 TESTS-total')" />
-      </td>
       <td>30411</td>
       <td>VIDAS FERRITIN 60 TESTS</td>
       <td>8625</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FERRITIN 60 TESTS','VIDAS FERRITIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FERRITIN 60 TESTS"
-          name="VIDAS FERRITIN 60 TESTS"
+          name="Part# - 30411, Name - VIDAS FERRITIN 60 TESTS"
           disabled="true"
           price="8625"
           gst="5"
@@ -11898,17 +12075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS AFP 60 TESTS','VIDAS AFP 60 TESTS-total')" />
-      </td>
       <td>30413</td>
       <td>VIDAS AFP 60 TESTS</td>
       <td>11385</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS AFP 60 TESTS','VIDAS AFP 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS AFP 60 TESTS"
-          name="VIDAS AFP 60 TESTS"
+          name="Part# - 30413, Name - VIDAS AFP 60 TESTS"
           disabled="true"
           price="11385"
           gst="5"
@@ -11919,17 +12100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS IGE 60 TESTS','VIDAS IGE 60 TESTS-total')" />
-      </td>
       <td>30419</td>
       <td>VIDAS IGE 60 TESTS</td>
       <td>9315</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS IGE 60 TESTS','VIDAS IGE 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS IGE 60 TESTS"
-          name="VIDAS IGE 60 TESTS"
+          name="Part# - 30419, Name - VIDAS IGE 60 TESTS"
           disabled="true"
           price="9315"
           gst="5"
@@ -11940,17 +12125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS BETA 2 MICROGL. 30 TESTS','VIDAS BETA 2 MICROGL. 30 TESTS-total')" />
-      </td>
       <td>30420</td>
       <td>VIDAS BETA 2 MICROGL. 30 TESTS</td>
       <td>10350</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS BETA 2 MICROGL. 30 TESTS','VIDAS BETA 2 MICROGL. 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS BETA 2 MICROGL. 30 TESTS"
-          name="VIDAS BETA 2 MICROGL. 30 TESTS"
+          name="Part# - 30420, Name - VIDAS BETA 2 MICROGL. 30 TESTS"
           disabled="true"
           price="10350"
           gst="5"
@@ -11961,17 +12150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CK MB 30TESTS','VIDAS CK MB 30TESTS-total')" />
-      </td>
       <td>30421</td>
       <td>VIDAS CK MB 30TESTS</td>
       <td>4500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CK MB 30TESTS','VIDAS CK MB 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CK MB 30TESTS"
-          name="VIDAS CK MB 30TESTS"
+          name="Part# - 30421, Name - VIDAS CK MB 30TESTS"
           disabled="true"
           price="4500"
           gst="5"
@@ -11982,17 +12175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 125II 30 TESTS','VIDAS CA 125II 30 TESTS-total')" />
-      </td>
       <td>30426</td>
       <td>VIDAS CA 125II 30 TESTS</td>
       <td>8740</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 125II 30 TESTS','VIDAS CA 125II 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 125II 30 TESTS"
-          name="VIDAS CA 125II 30 TESTS"
+          name="Part# - 30426, Name - VIDAS CA 125II 30 TESTS"
           disabled="true"
           price="8740"
           gst="5"
@@ -12003,17 +12200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 19-9 30 TESTS','VIDAS CA 19-9 30 TESTS-total')" />
-      </td>
       <td>30427</td>
       <td>VIDAS CA 19-9 30 TESTS</td>
       <td>8740</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 19-9 30 TESTS','VIDAS CA 19-9 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 19-9 30 TESTS"
-          name="VIDAS CA 19-9 30 TESTS"
+          name="Part# - 30427, Name - VIDAS CA 19-9 30 TESTS"
           disabled="true"
           price="8740"
           gst="5"
@@ -12024,17 +12225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TPSA 60 TESTS','VIDAS TPSA 60 TESTS-total')" />
-      </td>
       <td>30428</td>
       <td>VIDAS TPSA 60 TESTS</td>
       <td>10695</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TPSA 60 TESTS','VIDAS TPSA 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TPSA 60 TESTS"
-          name="VIDAS TPSA 60 TESTS"
+          name="Part# - 30428, Name - VIDAS TPSA 60 TESTS"
           disabled="true"
           price="10695"
           gst="5"
@@ -12045,17 +12250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CA 15-3 30 TESTS','VIDAS CA 15-3 30 TESTS-total')" />
-      </td>
       <td>30429</td>
       <td>VIDAS CA 15-3 30 TESTS</td>
       <td>8740</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CA 15-3 30 TESTS','VIDAS CA 15-3 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CA 15-3 30 TESTS"
-          name="VIDAS CA 15-3 30 TESTS"
+          name="Part# - 30429, Name - VIDAS CA 15-3 30 TESTS"
           disabled="true"
           price="8740"
           gst="5"
@@ -12066,17 +12275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ESTRADIOL II 60 TESTS','VIDAS ESTRADIOL II 60 TESTS-total')" />
-      </td>
       <td>30431</td>
       <td>VIDAS ESTRADIOL II 60 TESTS</td>
       <td>8625</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ESTRADIOL II 60 TESTS','VIDAS ESTRADIOL II 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ESTRADIOL II 60 TESTS"
-          name="VIDAS ESTRADIOL II 60 TESTS"
+          name="Part# - 30431, Name - VIDAS ESTRADIOL II 60 TESTS"
           disabled="true"
           price="8625"
           gst="5"
@@ -12087,17 +12300,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS VWF 30 TESTS','VIDAS VWF 30 TESTS-total')" />
-      </td>
       <td>30436</td>
       <td>VIDAS VWF 30 TESTS</td>
       <td>12190</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS VWF 30 TESTS','VIDAS VWF 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS VWF 30 TESTS"
-          name="VIDAS VWF 30 TESTS"
+          name="Part# - 30436, Name - VIDAS VWF 30 TESTS"
           disabled="true"
           price="12190"
           gst="5"
@@ -12108,17 +12325,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HBC IGM II 30TESTS','VIDAS HBC IGM II 30TESTS-total')" />
-      </td>
       <td>30439</td>
       <td>VIDAS HBC IGM II 30TESTS</td>
       <td>6210</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HBC IGM II 30TESTS','VIDAS HBC IGM II 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HBC IGM II 30TESTS"
-          name="VIDAS HBC IGM II 30TESTS"
+          name="Part# - 30439, Name - VIDAS HBC IGM II 30TESTS"
           disabled="true"
           price="6210"
           gst="5"
@@ -12129,17 +12350,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FPSA 30TESTS','VIDAS FPSA 30TESTS-total')" />
-      </td>
       <td>30440</td>
       <td>VIDAS FPSA 30TESTS</td>
       <td>6900</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FPSA 30TESTS','VIDAS FPSA 30TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FPSA 30TESTS"
-          name="VIDAS FPSA 30TESTS"
+          name="Part# - 30440, Name - VIDAS FPSA 30TESTS"
           disabled="true"
           price="6900"
           gst="5"
@@ -12150,17 +12375,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TSH3 60 T','VIDAS TSH3 60 T-total')" />
-      </td>
       <td>30441</td>
       <td>VIDAS TSH3 60 T</td>
       <td>6900</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TSH3 60 T','VIDAS TSH3 60 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TSH3 60 T"
-          name="VIDAS TSH3 60 T"
+          name="Part# - 30441, Name - VIDAS TSH3 60 T"
           disabled="true"
           price="6900"
           gst="5"
@@ -12171,17 +12400,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HIV DUO ULTRA 60 TESTS','VIDAS HIV DUO ULTRA 60 TESTS-total')" />
-      </td>
       <td>30443</td>
       <td>VIDAS HIV DUO ULTRA 60 TESTS</td>
       <td>7245</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HIV DUO ULTRA 60 TESTS','VIDAS HIV DUO ULTRA 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HIV DUO ULTRA 60 TESTS"
-          name="VIDAS HIV DUO ULTRA 60 TESTS"
+          name="Part# - 30443, Name - VIDAS HIV DUO ULTRA 60 TESTS"
           disabled="true"
           price="7245"
           gst="5"
@@ -12192,17 +12425,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS MYOGLOBINE 30 TESTS','VIDAS MYOGLOBINE 30 TESTS-total')" />
-      </td>
       <td>30446</td>
       <td>VIDAS MYOGLOBINE 30 TESTS</td>
       <td>8625</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS MYOGLOBINE 30 TESTS','VIDAS MYOGLOBINE 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS MYOGLOBINE 30 TESTS"
-          name="VIDAS MYOGLOBINE 30 TESTS"
+          name="Part# - 30446, Name - VIDAS MYOGLOBINE 30 TESTS"
           disabled="true"
           price="8625"
           gst="5"
@@ -12213,17 +12450,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS BRAHMS PROCALCITONIN 60T','VIDAS BRAHMS PROCALCITONIN 60T-total')" />
-      </td>
       <td>30450</td>
       <td>VIDAS BRAHMS PROCALCITONIN 60T</td>
       <td>48000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS BRAHMS PROCALCITONIN 60T','VIDAS BRAHMS PROCALCITONIN 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS BRAHMS PROCALCITONIN 60T"
-          name="VIDAS BRAHMS PROCALCITONIN 60T"
+          name="Part# - 30450, Name - VIDAS BRAHMS PROCALCITONIN 60T"
           disabled="true"
           price="48000"
           gst="5"
@@ -12234,17 +12475,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CEA (S) 60 TESTS','VIDAS CEA (S) 60 TESTS-total')" />
-      </td>
       <td>30453</td>
       <td>VIDAS CEA (S) 60 TESTS</td>
       <td>11385</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CEA (S) 60 TESTS','VIDAS CEA (S) 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CEA (S) 60 TESTS"
-          name="VIDAS CEA (S) 60 TESTS"
+          name="Part# - 30453, Name - VIDAS CEA (S) 60 TESTS"
           disabled="true"
           price="11385"
           gst="5"
@@ -12255,17 +12500,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS NT-PROBNP 2 60 TESTS','VIDAS NT-PROBNP 2 60 TESTS-total')" />
-      </td>
       <td>30458</td>
       <td>VIDAS NT-PROBNP 2 60 TESTS</td>
       <td>30000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS NT-PROBNP 2 60 TESTS','VIDAS NT-PROBNP 2 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS NT-PROBNP 2 60 TESTS"
-          name="VIDAS NT-PROBNP 2 60 TESTS"
+          name="Part# - 30458, Name - VIDAS NT-PROBNP 2 60 TESTS"
           disabled="true"
           price="30000"
           gst="5"
@@ -12276,17 +12525,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS FT4 60 TEST','VIDAS FT4 60 TEST-total')" />
-      </td>
       <td>30459</td>
       <td>VIDAS FT4 60 TEST</td>
       <td>5455</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS FT4 60 TEST','VIDAS FT4 60 TEST-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS FT4 60 TEST"
-          name="VIDAS FT4 60 TEST"
+          name="Part# - 30459, Name - VIDAS FT4 60 TEST"
           disabled="true"
           price="5455"
           gst="5"
@@ -12297,17 +12550,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS ANTI-TPO 30 T','VIDAS ANTI-TPO 30 T-total')" />
-      </td>
       <td>30461</td>
       <td>VIDAS ANTI-TPO 30 T</td>
       <td>7500</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS ANTI-TPO 30 T','VIDAS ANTI-TPO 30 T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS ANTI-TPO 30 T"
-          name="VIDAS ANTI-TPO 30 T"
+          name="Part# - 30461, Name - VIDAS ANTI-TPO 30 T"
           disabled="true"
           price="7500"
           gst="5"
@@ -12318,17 +12575,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TOTAL 25OH VITAMIN D 60T','VIDAS TOTAL 25OH VITAMIN D 60T-total')" />
-      </td>
       <td>30463</td>
       <td>VIDAS TOTAL 25OH VITAMIN D 60T</td>
       <td>24000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TOTAL 25OH VITAMIN D 60T','VIDAS TOTAL 25OH VITAMIN D 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TOTAL 25OH VITAMIN D 60T"
-          name="VIDAS TOTAL 25OH VITAMIN D 60T"
+          name="Part# - 30463, Name - VIDAS TOTAL 25OH VITAMIN D 60T"
           disabled="true"
           price="24000"
           gst="5"
@@ -12339,17 +12600,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS DIGOXIN 60 TESTS','VIDAS DIGOXIN 60 TESTS-total')" />
-      </td>
       <td>30603</td>
       <td>VIDAS DIGOXIN 60 TESTS</td>
       <td>11385</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS DIGOXIN 60 TESTS','VIDAS DIGOXIN 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS DIGOXIN 60 TESTS"
-          name="VIDAS DIGOXIN 60 TESTS"
+          name="Part# - 30603, Name - VIDAS DIGOXIN 60 TESTS"
           disabled="true"
           price="11385"
           gst="5"
@@ -12360,17 +12625,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ID 32 GN 25STRIPS+25MEDIA','ID 32 GN 25STRIPS+25MEDIA-total')" />
-      </td>
       <td>32100</td>
       <td>ID 32 GN 25STRIPS+25MEDIA</td>
       <td>4250</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ID 32 GN 25STRIPS+25MEDIA','ID 32 GN 25STRIPS+25MEDIA-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ID 32 GN 25STRIPS+25MEDIA"
-          name="ID 32 GN 25STRIPS+25MEDIA"
+          name="Part# - 32100, Name - ID 32 GN 25STRIPS+25MEDIA"
           disabled="true"
           price="4250"
           gst="12"
@@ -12381,17 +12650,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ID 32 C 25STRIPS+25MEDIA','ID 32 C 25STRIPS+25MEDIA-total')" />
-      </td>
       <td>32200</td>
       <td>ID 32 C 25STRIPS+25MEDIA</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ID 32 C 25STRIPS+25MEDIA','ID 32 C 25STRIPS+25MEDIA-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ID 32 C 25STRIPS+25MEDIA"
-          name="ID 32 C 25STRIPS+25MEDIA"
+          name="Part# - 32200, Name - ID 32 C 25STRIPS+25MEDIA"
           disabled="true"
           price="5000"
           gst="12"
@@ -12402,17 +12675,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ID 32 E 25STRIPS','ID 32 E 25STRIPS-total')" />
-      </td>
       <td>32400</td>
       <td>ID 32 E 25STRIPS</td>
       <td>4250</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ID 32 E 25STRIPS','ID 32 E 25STRIPS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ID 32 E 25STRIPS"
-          name="ID 32 E 25STRIPS"
+          name="Part# - 32400, Name - ID 32 E 25STRIPS"
           disabled="true"
           price="4250"
           gst="12"
@@ -12423,17 +12700,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'ID 32 STAPH 25STRIPS','ID 32 STAPH 25STRIPS-total')" />
-      </td>
       <td>32500</td>
       <td>ID 32 STAPH 25STRIPS</td>
       <td>4250</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'ID 32 STAPH 25STRIPS','ID 32 STAPH 25STRIPS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="ID 32 STAPH 25STRIPS"
-          name="ID 32 STAPH 25STRIPS"
+          name="Part# - 32500, Name - ID 32 STAPH 25STRIPS"
           disabled="true"
           price="4250"
           gst="12"
@@ -12444,17 +12725,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'RAPID ID 32 STREP 25STRIPS','RAPID ID 32 STREP 25STRIPS-total')" />
-      </td>
       <td>32600</td>
       <td>RAPID ID 32 STREP 25STRIPS</td>
       <td>4250</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'RAPID ID 32 STREP 25STRIPS','RAPID ID 32 STREP 25STRIPS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="RAPID ID 32 STREP 25STRIPS"
-          name="RAPID ID 32 STREP 25STRIPS"
+          name="Part# - 32600, Name - RAPID ID 32 STREP 25STRIPS"
           disabled="true"
           price="4250"
           gst="12"
@@ -12465,17 +12750,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'RAPID ID 32 E 25STRIPS','RAPID ID 32 E 25STRIPS-total')" />
-      </td>
       <td>32700</td>
       <td>RAPID ID 32 E 25STRIPS</td>
       <td>4250</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'RAPID ID 32 E 25STRIPS','RAPID ID 32 E 25STRIPS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="RAPID ID 32 E 25STRIPS"
-          name="RAPID ID 32 E 25STRIPS"
+          name="Part# - 32700, Name - RAPID ID 32 E 25STRIPS"
           disabled="true"
           price="4250"
           gst="12"
@@ -12486,17 +12775,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MYCOBACT.AS 96T','GENOTYPE MYCOBACT.AS 96T-total')" />
-      </td>
       <td>47011</td>
       <td>GENOTYPE MYCOBACT.AS 96T</td>
       <td>77000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MYCOBACT.AS 96T','GENOTYPE MYCOBACT.AS 96T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MYCOBACT.AS 96T"
-          name="GENOTYPE MYCOBACT.AS 96T"
+          name="Part# - 47011, Name - GENOTYPE MYCOBACT.AS 96T"
           disabled="true"
           price="77000"
           gst="12"
@@ -12507,17 +12800,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MYCOBACT.CM 96T','GENOTYPE MYCOBACT.CM 96T-total')" />
-      </td>
       <td>47012</td>
       <td>GENOTYPE MYCOBACT.CM 96T</td>
       <td>77000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MYCOBACT.CM 96T','GENOTYPE MYCOBACT.CM 96T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MYCOBACT.CM 96T"
-          name="GENOTYPE MYCOBACT.CM 96T"
+          name="Part# - 47012, Name - GENOTYPE MYCOBACT.CM 96T"
           disabled="true"
           price="77000"
           gst="12"
@@ -12528,17 +12825,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MTBC 96T','GENOTYPE MTBC 96T-total')" />
-      </td>
       <td>47013</td>
       <td>GENOTYPE MTBC 96T</td>
       <td>77000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MTBC 96T','GENOTYPE MTBC 96T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MTBC 96T"
-          name="GENOTYPE MTBC 96T"
+          name="Part# - 47013, Name - GENOTYPE MTBC 96T"
           disabled="true"
           price="77000"
           gst="12"
@@ -12549,17 +12850,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOLYSE 96T','GENOLYSE 96T-total')" />
-      </td>
       <td>47016</td>
       <td>GENOLYSE 96T</td>
       <td>9000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOLYSE 96T','GENOLYSE 96T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOLYSE 96T"
-          name="GENOLYSE 96T"
+          name="Part# - 47016, Name - GENOLYSE 96T"
           disabled="true"
           price="9000"
           gst="12"
@@ -12570,17 +12875,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MTBDRSL 96 TESTS','GENOTYPE MTBDRSL 96 TESTS-total')" />
-      </td>
       <td>47022</td>
       <td>GENOTYPE MTBDRSL 96 TESTS</td>
       <td>87000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MTBDRSL 96 TESTS','GENOTYPE MTBDRSL 96 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MTBDRSL 96 TESTS"
-          name="GENOTYPE MTBDRSL 96 TESTS"
+          name="Part# - 47022, Name - GENOTYPE MTBDRSL 96 TESTS"
           disabled="true"
           price="87000"
           gst="12"
@@ -12591,17 +12900,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FREE HUMAN SERUM','FREE HUMAN SERUM-total')" />
-      </td>
       <td>66581</td>
       <td>FREE HUMAN SERUM</td>
       <td>1725</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FREE HUMAN SERUM','FREE HUMAN SERUM-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FREE HUMAN SERUM"
-          name="FREE HUMAN SERUM"
+          name="Part# - 66581, Name - FREE HUMAN SERUM"
           disabled="true"
           price="1725"
           gst="12"
@@ -12612,17 +12925,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'UNSENSITIZED TUBES 1X2000','UNSENSITIZED TUBES 1X2000-total')" />
-      </td>
       <td>69285</td>
       <td>UNSENSITIZED TUBES 1X2000</td>
       <td>14000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'UNSENSITIZED TUBES 1X2000','UNSENSITIZED TUBES 1X2000-total')"
+        />
+      </td>
+      <td>
+        <input
           id="UNSENSITIZED TUBES 1X2000"
-          name="UNSENSITIZED TUBES 1X2000"
+          name="Part# - 69285, Name - UNSENSITIZED TUBES 1X2000"
           disabled="true"
           price="14000"
           gst="18"
@@ -12633,17 +12950,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'API MINERAL OIL 1X125ML','API MINERAL OIL 1X125ML-total')" />
-      </td>
       <td>70100</td>
       <td>API MINERAL OIL 1X125ML</td>
       <td>600.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'API MINERAL OIL 1X125ML','API MINERAL OIL 1X125ML-total')"
+        />
+      </td>
+      <td>
+        <input
           id="API MINERAL OIL 1X125ML"
-          name="API MINERAL OIL 1X125ML"
+          name="Part# - 70100, Name - API MINERAL OIL 1X125ML"
           disabled="true"
           price="600.00"
           gst="12"
@@ -12654,17 +12975,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'NIT1 NIT2 REAGENTS','NIT1 NIT2 REAGENTS-total')" />
-      </td>
       <td>70442</td>
       <td>NIT1 NIT2 REAGENTS</td>
       <td>600.00</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'NIT1 NIT2 REAGENTS','NIT1 NIT2 REAGENTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="NIT1 NIT2 REAGENTS"
-          name="NIT1 NIT2 REAGENTS"
+          name="Part# - 70442, Name - NIT1 NIT2 REAGENTS"
           disabled="true"
           price="600.00"
           gst="18"
@@ -12675,17 +13000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'NIN X2','NIN X2-total')" />
-      </td>
       <td>70491</td>
       <td>NIN X2</td>
       <td>600.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'NIN X2','NIN X2-total')"
+        />
+      </td>
+      <td>
+        <input
           id="NIN X2"
-          name="NIN X2"
+          name="Part# - 70491, Name - NIN X2"
           disabled="true"
           price="600.00"
           gst="12"
@@ -12696,17 +13025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'JAMES 2AMP','JAMES 2AMP-total')" />
-      </td>
       <td>70542</td>
       <td>JAMES 2AMP</td>
       <td>600.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'JAMES 2AMP','JAMES 2AMP-total')"
+        />
+      </td>
+      <td>
+        <input
           id="JAMES 2AMP"
-          name="JAMES 2AMP"
+          name="Part# - 70542, Name - JAMES 2AMP"
           disabled="true"
           price="600.00"
           gst="12"
@@ -12717,17 +13050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FB (FAST BLUE BB) 2AMP','FB (FAST BLUE BB) 2AMP-total')" />
-      </td>
       <td>70562</td>
       <td>FB (FAST BLUE BB) 2AMP</td>
       <td>600.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FB (FAST BLUE BB) 2AMP','FB (FAST BLUE BB) 2AMP-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FB (FAST BLUE BB) 2AMP"
-          name="FB (FAST BLUE BB) 2AMP"
+          name="Part# - 70562, Name - FB (FAST BLUE BB) 2AMP"
           disabled="true"
           price="600.00"
           gst="12"
@@ -12738,17 +13075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VPA VPB REAGENTS','VPA VPB REAGENTS-total')" />
-      </td>
       <td>70572</td>
       <td>VPA VPB REAGENTS</td>
       <td>600.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VPA VPB REAGENTS','VPA VPB REAGENTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VPA VPB REAGENTS"
-          name="VPA VPB REAGENTS"
+          name="Part# - 70572, Name - VPA VPB REAGENTS"
           disabled="true"
           price="600.00"
           gst="12"
@@ -12759,17 +13100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'API SUSP. MEDIUM (3ML) 100AMP','API SUSP. MEDIUM (3ML) 100AMP-total')" />
-      </td>
       <td>70640</td>
       <td>API SUSP. MEDIUM (3ML) 100AMP</td>
       <td>1500</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'API SUSP. MEDIUM (3ML) 100AMP','API SUSP. MEDIUM (3ML) 100AMP-total')"
+        />
+      </td>
+      <td>
+        <input
           id="API SUSP. MEDIUM (3ML) 100AMP"
-          name="API SUSP. MEDIUM (3ML) 100AMP"
+          name="Part# - 70640, Name - API SUSP. MEDIUM (3ML) 100AMP"
           disabled="true"
           price="1500"
           gst="18"
@@ -12780,17 +13125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'MB/BACT ANTIBIOTIC SUPPLEMENT','MB/BACT ANTIBIOTIC SUPPLEMENT-total')" />
-      </td>
       <td>259760</td>
       <td>MB/BACT ANTIBIOTIC SUPPLEMENT</td>
       <td>4000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'MB/BACT ANTIBIOTIC SUPPLEMENT','MB/BACT ANTIBIOTIC SUPPLEMENT-total')"
+        />
+      </td>
+      <td>
+        <input
           id="MB/BACT ANTIBIOTIC SUPPLEMENT"
-          name="MB/BACT ANTIBIOTIC SUPPLEMENT"
+          name="Part# - 259760, Name - MB/BACT ANTIBIOTIC SUPPLEMENT"
           disabled="true"
           price="4000"
           gst="18"
@@ -12801,17 +13150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BACT/ALERT MP (PLASTIC)','BACT/ALERT MP (PLASTIC)-total')" />
-      </td>
       <td>259797</td>
       <td>BACT/ALERT MP (PLASTIC)</td>
       <td>14400</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BACT/ALERT MP (PLASTIC)','BACT/ALERT MP (PLASTIC)-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BACT/ALERT MP (PLASTIC)"
-          name="BACT/ALERT MP (PLASTIC)"
+          name="Part# - 259797, Name - BACT/ALERT MP (PLASTIC)"
           disabled="true"
           price="14400"
           gst="18"
@@ -12822,17 +13175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-ST01 TEST KIT 20 CARDS','AST-ST01 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>410028</td>
       <td>AST-ST01 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-ST01 TEST KIT 20 CARDS','AST-ST01 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-ST01 TEST KIT 20 CARDS"
-          name="AST-ST01 TEST KIT 20 CARDS"
+          name="Part# - 410028, Name - AST-ST01 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="18"
@@ -12843,17 +13200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BACT/ALERT FA PLUS (PLASTIC) 1','BACT/ALERT FA PLUS (PLASTIC) 1-total')" />
-      </td>
       <td>410851</td>
       <td>BACT/ALERT FA PLUS (PLASTIC) 1</td>
       <td>20000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BACT/ALERT FA PLUS (PLASTIC) 1','BACT/ALERT FA PLUS (PLASTIC) 1-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BACT/ALERT FA PLUS (PLASTIC) 1"
-          name="BACT/ALERT FA PLUS (PLASTIC) 1"
+          name="Part# - 410851, Name - BACT/ALERT FA PLUS (PLASTIC) 1"
           disabled="true"
           price="20000"
           gst="18"
@@ -12864,17 +13225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BACT/ALERT FN PLUS (PLASTIC) 1','BACT/ALERT FN PLUS (PLASTIC) 1-total')" />
-      </td>
       <td>410852</td>
       <td>BACT/ALERT FN PLUS (PLASTIC) 1</td>
       <td>20000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BACT/ALERT FN PLUS (PLASTIC) 1','BACT/ALERT FN PLUS (PLASTIC) 1-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BACT/ALERT FN PLUS (PLASTIC) 1"
-          name="BACT/ALERT FN PLUS (PLASTIC) 1"
+          name="Part# - 410852, Name - BACT/ALERT FN PLUS (PLASTIC) 1"
           disabled="true"
           price="20000"
           gst="18"
@@ -12885,17 +13250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BACT/ALERT PF PLUS (PLASTIC) 1','BACT/ALERT PF PLUS (PLASTIC) 1-total')" />
-      </td>
       <td>410853</td>
       <td>BACT/ALERT PF PLUS (PLASTIC) 1</td>
       <td>20000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BACT/ALERT PF PLUS (PLASTIC) 1','BACT/ALERT PF PLUS (PLASTIC) 1-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BACT/ALERT PF PLUS (PLASTIC) 1"
-          name="BACT/ALERT PF PLUS (PLASTIC) 1"
+          name="Part# - 410853, Name - BACT/ALERT PF PLUS (PLASTIC) 1"
           disabled="true"
           price="20000"
           gst="18"
@@ -12906,17 +13275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'MDBDR PLUS V2','MDBDR PLUS V2-total')" />
-      </td>
       <td>413150</td>
       <td>MDBDR PLUS V2</td>
       <td>77000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'MDBDR PLUS V2','MDBDR PLUS V2-total')"
+        />
+      </td>
+      <td>
+        <input
           id="MDBDR PLUS V2"
-          name="MDBDR PLUS V2"
+          name="Part# - 413150, Name - MDBDR PLUS V2"
           disabled="true"
           price="77000"
           gst="12"
@@ -12927,17 +13300,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N235 TEST KIT 20 CARDS','AST-N235 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>413170</td>
       <td>AST-N235 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N235 TEST KIT 20 CARDS','AST-N235 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N235 TEST KIT 20 CARDS"
-          name="AST-N235 TEST KIT 20 CARDS"
+          name="Part# - 413170, Name - AST-N235 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -12948,17 +13325,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS CMV IGG AVIDITY II 30T','VIDAS CMV IGG AVIDITY II 30T-total')" />
-      </td>
       <td>413557</td>
       <td>VIDAS CMV IGG AVIDITY II 30T</td>
       <td>3450</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS CMV IGG AVIDITY II 30T','VIDAS CMV IGG AVIDITY II 30T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS CMV IGG AVIDITY II 30T"
-          name="VIDAS CMV IGG AVIDITY II 30T"
+          name="Part# - 413557, Name - VIDAS CMV IGG AVIDITY II 30T"
           disabled="true"
           price="3450"
           gst="5"
@@ -12969,17 +13350,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS TESTOSTERONE II 30 TESTS','VIDAS TESTOSTERONE II 30 TESTS-total')" />
-      </td>
       <td>414320</td>
       <td>VIDAS TESTOSTERONE II 30 TESTS</td>
       <td>5750</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS TESTOSTERONE II 30 TESTS','VIDAS TESTOSTERONE II 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS TESTOSTERONE II 30 TESTS"
-          name="VIDAS TESTOSTERONE II 30 TESTS"
+          name="Part# - 414320, Name - VIDAS TESTOSTERONE II 30 TESTS"
           disabled="true"
           price="5750"
           gst="5"
@@ -12990,17 +13375,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N280 TEST KIT 20 CARDS','AST-N280 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>414531</td>
       <td>AST-N280 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N280 TEST KIT 20 CARDS','AST-N280 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N280 TEST KIT 20 CARDS"
-          name="AST-N280 TEST KIT 20 CARDS"
+          name="Part# - 414531, Name - AST-N280 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13011,17 +13400,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N281 TEST KIT 20 CARDS','AST-N281 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>414532</td>
       <td>AST-N281 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N281 TEST KIT 20 CARDS','AST-N281 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N281 TEST KIT 20 CARDS"
-          name="AST-N281 TEST KIT 20 CARDS"
+          name="Part# - 414532, Name - AST-N281 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13032,17 +13425,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-P628 TEST KIT 20 CARDS','AST-P628 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>414534</td>
       <td>AST-P628 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-P628 TEST KIT 20 CARDS','AST-P628 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-P628 TEST KIT 20 CARDS"
-          name="AST-P628 TEST KIT 20 CARDS"
+          name="Part# - 414534, Name - AST-P628 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13053,17 +13450,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-YS07 TEST KIT 20 CARDS','AST-YS07 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>414967</td>
       <td>AST-YS07 TEST KIT 20 CARDS</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-YS07 TEST KIT 20 CARDS','AST-YS07 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-YS07 TEST KIT 20 CARDS"
-          name="AST-YS07 TEST KIT 20 CARDS"
+          name="Part# - 414967, Name - AST-YS07 TEST KIT 20 CARDS"
           disabled="true"
           price="5000"
           gst="12"
@@ -13074,17 +13475,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'MYCO ANTIMICROBIAL KIT 100 BTL','MYCO ANTIMICROBIAL KIT 100 BTL-total')" />
-      </td>
       <td>414997</td>
       <td>MYCO ANTIMICROBIAL KIT 100 BTL</td>
       <td>6500</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'MYCO ANTIMICROBIAL KIT 100 BTL','MYCO ANTIMICROBIAL KIT 100 BTL-total')"
+        />
+      </td>
+      <td>
+        <input
           id="MYCO ANTIMICROBIAL KIT 100 BTL"
-          name="MYCO ANTIMICROBIAL KIT 100 BTL"
+          name="Part# - 414997, Name - MYCO ANTIMICROBIAL KIT 100 BTL"
           disabled="true"
           price="6500"
           gst="18"
@@ -13095,17 +13500,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS HS TROPONIN I 60 TESTS','VIDAS HS TROPONIN I 60 TESTS-total')" />
-      </td>
       <td>415386</td>
       <td>VIDAS HS TROPONIN I 60 TESTS</td>
       <td>15525</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS HS TROPONIN I 60 TESTS','VIDAS HS TROPONIN I 60 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS HS TROPONIN I 60 TESTS"
-          name="VIDAS HS TROPONIN I 60 TESTS"
+          name="Part# - 415386, Name - VIDAS HS TROPONIN I 60 TESTS"
           disabled="true"
           price="15525"
           gst="5"
@@ -13116,17 +13525,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM AS 12T','GENOTYPE MYCOBACTERIUM AS 12T-total')" />
-      </td>
       <td>415970</td>
       <td>GENOTYPE MYCOBACTERIUM AS 12T</td>
       <td>9625</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM AS 12T','GENOTYPE MYCOBACTERIUM AS 12T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MYCOBACTERIUM AS 12T"
-          name="GENOTYPE MYCOBACTERIUM AS 12T"
+          name="Part# - 415970, Name - GENOTYPE MYCOBACTERIUM AS 12T"
           disabled="true"
           price="9625"
           gst="12"
@@ -13137,17 +13550,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS AMH 30 TESTS','VIDAS AMH 30 TESTS-total')" />
-      </td>
       <td>417011</td>
       <td>VIDAS AMH 30 TESTS</td>
       <td>27000</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS AMH 30 TESTS','VIDAS AMH 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS AMH 30 TESTS"
-          name="VIDAS AMH 30 TESTS"
+          name="Part# - 417011, Name - VIDAS AMH 30 TESTS"
           disabled="true"
           price="27000"
           gst="5"
@@ -13158,17 +13575,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MTBDRSL V2 96T','GENOTYPE MTBDRSL V2 96T-total')" />
-      </td>
       <td>419666</td>
       <td>GENOTYPE MTBDRSL V2 96T</td>
       <td>87000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MTBDRSL V2 96T','GENOTYPE MTBDRSL V2 96T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MTBDRSL V2 96T"
-          name="GENOTYPE MTBDRSL V2 96T"
+          name="Part# - 419666, Name - GENOTYPE MTBDRSL V2 96T"
           disabled="true"
           price="87000"
           gst="12"
@@ -13179,17 +13600,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BACT/ALERT MP 100 BTLS','BACT/ALERT MP 100 BTLS-total')" />
-      </td>
       <td>419744</td>
       <td>BACT/ALERT MP 100 BTLS</td>
       <td>22000</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BACT/ALERT MP 100 BTLS','BACT/ALERT MP 100 BTLS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BACT/ALERT MP 100 BTLS"
-          name="BACT/ALERT MP 100 BTLS"
+          name="Part# - 419744, Name - BACT/ALERT MP 100 BTLS"
           disabled="true"
           price="22000"
           gst="18"
@@ -13200,17 +13625,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-YS08 TEST KIT 20 CARDS','AST-YS08 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>420739</td>
       <td>AST-YS08 TEST KIT 20 CARDS</td>
       <td>5000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-YS08 TEST KIT 20 CARDS','AST-YS08 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-YS08 TEST KIT 20 CARDS"
-          name="AST-YS08 TEST KIT 20 CARDS"
+          name="Part# - 420739, Name - AST-YS08 TEST KIT 20 CARDS"
           disabled="true"
           price="5000"
           gst="12"
@@ -13221,17 +13650,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-ST03 TEST KIT 20 CARDS','AST-ST03 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>421040</td>
       <td>AST-ST03 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-ST03 TEST KIT 20 CARDS','AST-ST03 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-ST03 TEST KIT 20 CARDS"
-          name="AST-ST03 TEST KIT 20 CARDS"
+          name="Part# - 421040, Name - AST-ST03 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13242,17 +13675,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N363 TEST KIT 20 CARDS','AST-N363 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>421692</td>
       <td>AST-N363 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N363 TEST KIT 20 CARDS','AST-N363 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N363 TEST KIT 20 CARDS"
-          name="AST-N363 TEST KIT 20 CARDS"
+          name="Part# - 421692, Name - AST-N363 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13263,17 +13700,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N364 TEST KIT 20 CARDS','AST-N364 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>421693</td>
       <td>AST-N364 TEST KIT 20 CARDS</td>
       <td>4400</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N364 TEST KIT 20 CARDS','AST-N364 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N364 TEST KIT 20 CARDS"
-          name="AST-N364 TEST KIT 20 CARDS"
+          name="Part# - 421693, Name - AST-N364 TEST KIT 20 CARDS"
           disabled="true"
           price="4400"
           gst="12"
@@ -13284,17 +13725,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BIOFIRE RP2.1  PANEL, 30 TESTS','BIOFIRE RP2.1  PANEL, 30 TESTS-total')" />
-      </td>
       <td>423738</td>
       <td>BIOFIRE RP2.1  PANEL, 30 TESTS</td>
       <td>2,31,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BIOFIRE RP2.1  PANEL, 30 TESTS','BIOFIRE RP2.1  PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BIOFIRE RP2.1  PANEL, 30 TESTS"
-          name="BIOFIRE RP2.1  PANEL, 30 TESTS"
+          name="Part# - 423738, Name - BIOFIRE RP2.1  PANEL, 30 TESTS"
           disabled="true"
           price="2,31,000.00"
           gst="12"
@@ -13305,17 +13750,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BIOFIRE RP2.1 PANEL, 30 TESTS','BIOFIRE RP2.1 PANEL, 30 TESTS-total')" />
-      </td>
       <td>423742</td>
       <td>BIOFIRE RP2.1 PANEL, 30 TESTS</td>
       <td>2,31,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BIOFIRE RP2.1 PANEL, 30 TESTS','BIOFIRE RP2.1 PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BIOFIRE RP2.1 PANEL, 30 TESTS"
-          name="BIOFIRE RP2.1 PANEL, 30 TESTS"
+          name="Part# - 423742, Name - BIOFIRE RP2.1 PANEL, 30 TESTS"
           disabled="true"
           price="2,31,000.00"
           gst="12"
@@ -13326,17 +13775,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N405 TEST KIT 20 CARDS','AST-N405 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>423864</td>
       <td>AST-N405 TEST KIT 20 CARDS</td>
       <td>4600</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N405 TEST KIT 20 CARDS','AST-N405 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N405 TEST KIT 20 CARDS"
-          name="AST-N405 TEST KIT 20 CARDS"
+          name="Part# - 423864, Name - AST-N405 TEST KIT 20 CARDS"
           disabled="true"
           price="4600"
           gst="12"
@@ -13347,17 +13800,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N406 TEST KIT 20 CARDS','AST-N406 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>423869</td>
       <td>AST-N406 TEST KIT 20 CARDS</td>
       <td>4600</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N406 TEST KIT 20 CARDS','AST-N406 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N406 TEST KIT 20 CARDS"
-          name="AST-N406 TEST KIT 20 CARDS"
+          name="Part# - 423869, Name - AST-N406 TEST KIT 20 CARDS"
           disabled="true"
           price="4600"
           gst="12"
@@ -13368,17 +13825,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'AST-N407 TEST KIT 20 CARDS','AST-N407 TEST KIT 20 CARDS-total')" />
-      </td>
       <td>423870</td>
       <td>AST-N407 TEST KIT 20 CARDS</td>
       <td>6600</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'AST-N407 TEST KIT 20 CARDS','AST-N407 TEST KIT 20 CARDS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="AST-N407 TEST KIT 20 CARDS"
-          name="AST-N407 TEST KIT 20 CARDS"
+          name="Part# - 423870, Name - AST-N407 TEST KIT 20 CARDS"
           disabled="true"
           price="6600"
           gst="12"
@@ -13389,17 +13850,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BELT,TIMING,3HTD,209GR','BELT,TIMING,3HTD,209GR-total')" />
-      </td>
       <td>6200190</td>
       <td>BELT,TIMING,3HTD,209GR</td>
       <td>7900</td>
       <td>18%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BELT,TIMING,3HTD,209GR','BELT,TIMING,3HTD,209GR-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BELT,TIMING,3HTD,209GR"
-          name="BELT,TIMING,3HTD,209GR"
+          name="Part# - 6200190, Name - BELT,TIMING,3HTD,209GR"
           disabled="true"
           price="7900"
           gst="18"
@@ -13410,17 +13875,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM CM VER2','GENOTYPE MYCOBACTERIUM CM VER2-total')" />
-      </td>
       <td>29996A</td>
       <td>GENOTYPE MYCOBACTERIUM CM VER2</td>
       <td>77000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM CM VER2','GENOTYPE MYCOBACTERIUM CM VER2-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MYCOBACTERIUM CM VER2"
-          name="GENOTYPE MYCOBACTERIUM CM VER2"
+          name="Part# - 29996A, Name - GENOTYPE MYCOBACTERIUM CM VER2"
           disabled="true"
           price="77000"
           gst="12"
@@ -13431,17 +13900,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM CM VER2','GENOTYPE MYCOBACTERIUM CM VER2-total')" />
-      </td>
       <td>299A</td>
       <td>GENOTYPE MYCOBACTERIUM CM VER2</td>
       <td>20000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'GENOTYPE MYCOBACTERIUM CM VER2','GENOTYPE MYCOBACTERIUM CM VER2-total')"
+        />
+      </td>
+      <td>
+        <input
           id="GENOTYPE MYCOBACTERIUM CM VER2"
-          name="GENOTYPE MYCOBACTERIUM CM VER2"
+          name="Part# - 299A, Name - GENOTYPE MYCOBACTERIUM CM VER2"
           disabled="true"
           price="20000"
           gst="12"
@@ -13452,17 +13925,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'VIDAS D-DIMER EXCLUSION II 60T','VIDAS D-DIMER EXCLUSION II 60T-total')" />
-      </td>
       <td>30455-02</td>
       <td>VIDAS D-DIMER EXCLUSION II 60T</td>
       <td>20700</td>
       <td>5%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'VIDAS D-DIMER EXCLUSION II 60T','VIDAS D-DIMER EXCLUSION II 60T-total')"
+        />
+      </td>
+      <td>
+        <input
           id="VIDAS D-DIMER EXCLUSION II 60T"
-          name="VIDAS D-DIMER EXCLUSION II 60T"
+          name="Part# - 30455-02, Name - VIDAS D-DIMER EXCLUSION II 60T"
           disabled="true"
           price="20700"
           gst="5"
@@ -13473,17 +13950,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY GI PANEL, 6 TESTS','FILMARRAY GI PANEL, 6 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0104</td>
       <td>FILMARRAY GI PANEL, 6 TESTS</td>
       <td>54000</td>
       <td>%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY GI PANEL, 6 TESTS','FILMARRAY GI PANEL, 6 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY GI PANEL, 6 TESTS"
-          name="FILMARRAY GI PANEL, 6 TESTS"
+          name="Part# - RFIT-ASY-0104, Name - FILMARRAY GI PANEL, 6 TESTS"
           disabled="true"
           price="54000"
           gst=""
@@ -13494,17 +13975,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY GI PANEL, 30 TESTS','FILMARRAY GI PANEL, 30 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0116</td>
       <td>FILMARRAY GI PANEL, 30 TESTS</td>
       <td>2,70,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY GI PANEL, 30 TESTS','FILMARRAY GI PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY GI PANEL, 30 TESTS"
-          name="FILMARRAY GI PANEL, 30 TESTS"
+          name="Part# - RFIT-ASY-0116, Name - FILMARRAY GI PANEL, 30 TESTS"
           disabled="true"
           price="2,70,000.00"
           gst="12"
@@ -13515,17 +14000,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY ME PANEL, 30 TESTS','FILMARRAY ME PANEL, 30 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0118</td>
       <td>FILMARRAY ME PANEL, 30 TESTS</td>
       <td>2,43,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY ME PANEL, 30 TESTS','FILMARRAY ME PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY ME PANEL, 30 TESTS"
-          name="FILMARRAY ME PANEL, 30 TESTS"
+          name="Part# - RFIT-ASY-0118, Name - FILMARRAY ME PANEL, 30 TESTS"
           disabled="true"
           price="2,43,000.00"
           gst="12"
@@ -13536,17 +14025,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY ME PANEL, 6 TESTS','FILMARRAY ME PANEL, 6 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0119</td>
       <td>FILMARRAY ME PANEL, 6 TESTS</td>
       <td>54000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY ME PANEL, 6 TESTS','FILMARRAY ME PANEL, 6 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY ME PANEL, 6 TESTS"
-          name="FILMARRAY ME PANEL, 6 TESTS"
+          name="Part# - RFIT-ASY-0119, Name - FILMARRAY ME PANEL, 6 TESTS"
           disabled="true"
           price="54000"
           gst="12"
@@ -13557,17 +14050,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY RESPIRATORY PANEL, 6','FILMARRAY RESPIRATORY PANEL, 6-total')" />
-      </td>
       <td>RFIT-ASY-0125</td>
       <td>FILMARRAY RESPIRATORY PANEL, 6</td>
       <td>63000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY RESPIRATORY PANEL, 6','FILMARRAY RESPIRATORY PANEL, 6-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY RESPIRATORY PANEL, 6"
-          name="FILMARRAY RESPIRATORY PANEL, 6"
+          name="Part# - RFIT-ASY-0125, Name - FILMARRAY RESPIRATORY PANEL, 6"
           disabled="true"
           price="63000"
           gst="12"
@@ -13578,17 +14075,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY BCID PANEL, 30 TESTS','FILMARRAY BCID PANEL, 30 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0126</td>
       <td>FILMARRAY BCID PANEL, 30 TESTS</td>
       <td>1,89,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY BCID PANEL, 30 TESTS','FILMARRAY BCID PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY BCID PANEL, 30 TESTS"
-          name="FILMARRAY BCID PANEL, 30 TESTS"
+          name="Part# - RFIT-ASY-0126, Name - FILMARRAY BCID PANEL, 30 TESTS"
           disabled="true"
           price="1,89,000.00"
           gst="12"
@@ -13599,17 +14100,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY BCID PANEL, 6 TESTS','FILMARRAY BCID PANEL, 6 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0127</td>
       <td>FILMARRAY BCID PANEL, 6 TESTS</td>
       <td>37800</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY BCID PANEL, 6 TESTS','FILMARRAY BCID PANEL, 6 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY BCID PANEL, 6 TESTS"
-          name="FILMARRAY BCID PANEL, 6 TESTS"
+          name="Part# - RFIT-ASY-0127, Name - FILMARRAY BCID PANEL, 6 TESTS"
           disabled="true"
           price="37800"
           gst="12"
@@ -13620,17 +14125,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY RP2PLUS, 30 TESTS','FILMARRAY RP2PLUS, 30 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0136</td>
       <td>FILMARRAY RP2PLUS, 30 TESTS</td>
       <td>2,31,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY RP2PLUS, 30 TESTS','FILMARRAY RP2PLUS, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY RP2PLUS, 30 TESTS"
-          name="FILMARRAY RP2PLUS, 30 TESTS"
+          name="Part# - RFIT-ASY-0136, Name - FILMARRAY RP2PLUS, 30 TESTS"
           disabled="true"
           price="2,31,000.00"
           gst="12"
@@ -13641,17 +14150,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY RP2PLUS, 6 TESTS','FILMARRAY RP2PLUS, 6 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0137</td>
       <td>FILMARRAY RP2PLUS, 6 TESTS</td>
       <td>46200</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY RP2PLUS, 6 TESTS','FILMARRAY RP2PLUS, 6 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY RP2PLUS, 6 TESTS"
-          name="FILMARRAY RP2PLUS, 6 TESTS"
+          name="Part# - RFIT-ASY-0137, Name - FILMARRAY RP2PLUS, 6 TESTS"
           disabled="true"
           price="46200"
           gst="12"
@@ -13662,17 +14175,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BioFire Joint Infection Panel,','BioFire Joint Infection Panel,-total')" />
-      </td>
       <td>RFIT-ASY-0138</td>
       <td>BioFire Joint Infection Panel,</td>
       <td>3,45,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BioFire Joint Infection Panel,','BioFire Joint Infection Panel,-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BioFire Joint Infection Panel,"
-          name="BioFire Joint Infection Panel,"
+          name="Part# - RFIT-ASY-0138, Name - BioFire Joint Infection Panel,"
           disabled="true"
           price="3,45,000.00"
           gst="12"
@@ -13683,17 +14200,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY PNEUMO PLUS PANEL, 6','FILMARRAY PNEUMO PLUS PANEL, 6-total')" />
-      </td>
       <td>RFIT-ASY-0142</td>
       <td>FILMARRAY PNEUMO PLUS PANEL, 6</td>
       <td>66000</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY PNEUMO PLUS PANEL, 6','FILMARRAY PNEUMO PLUS PANEL, 6-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY PNEUMO PLUS PANEL, 6"
-          name="FILMARRAY PNEUMO PLUS PANEL, 6"
+          name="Part# - RFIT-ASY-0142, Name - FILMARRAY PNEUMO PLUS PANEL, 6"
           disabled="true"
           price="66000"
           gst="12"
@@ -13704,17 +14225,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'FILMARRAY PNEUMO PLUS PANEL, 3','FILMARRAY PNEUMO PLUS PANEL, 3-total')" />
-      </td>
       <td>RFIT-ASY-0143</td>
       <td>FILMARRAY PNEUMO PLUS PANEL, 3</td>
       <td>3,30,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'FILMARRAY PNEUMO PLUS PANEL, 3','FILMARRAY PNEUMO PLUS PANEL, 3-total')"
+        />
+      </td>
+      <td>
+        <input
           id="FILMARRAY PNEUMO PLUS PANEL, 3"
-          name="FILMARRAY PNEUMO PLUS PANEL, 3"
+          name="Part# - RFIT-ASY-0143, Name - FILMARRAY PNEUMO PLUS PANEL, 3"
           disabled="true"
           price="3,30,000.00"
           gst="12"
@@ -13725,17 +14250,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'BIOFIRE BCID2 PANEL, 30 TESTS','BIOFIRE BCID2 PANEL, 30 TESTS-total')" />
-      </td>
       <td>RFIT-ASY-0147</td>
       <td>BIOFIRE BCID2 PANEL, 30 TESTS</td>
       <td>1,89,000.00</td>
       <td>12%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'BIOFIRE BCID2 PANEL, 30 TESTS','BIOFIRE BCID2 PANEL, 30 TESTS-total')"
+        />
+      </td>
+      <td>
+        <input
           id="BIOFIRE BCID2 PANEL, 30 TESTS"
-          name="BIOFIRE BCID2 PANEL, 30 TESTS"
+          name="Part# - RFIT-ASY-0147, Name - BIOFIRE BCID2 PANEL, 30 TESTS"
           disabled="true"
           price="1,89,000.00"
           gst="12"
@@ -13746,17 +14275,21 @@
     </tr>
     
     <tr>
-      <td>
-        <input type="checkbox" onclick="onSelect(this,'SALINE SOLUTION 3X500ML','SALINE SOLUTION 3X500ML-total')" />
-      </td>
       <td>V1204</td>
       <td>SALINE SOLUTION 3X500ML</td>
       <td>1500</td>
       <td>0%</td>
       <td>
         <input
+          type="checkbox"
+          style="width: 30px; height: 30px"
+          onclick="onSelect(this,'SALINE SOLUTION 3X500ML','SALINE SOLUTION 3X500ML-total')"
+        />
+      </td>
+      <td>
+        <input
           id="SALINE SOLUTION 3X500ML"
-          name="SALINE SOLUTION 3X500ML"
+          name="Part# - V1204, Name - SALINE SOLUTION 3X500ML"
           disabled="true"
           price="1500"
           gst="0"
@@ -13772,6 +14305,13 @@
       <td>
         <b>Rs<span id="total">0</span></b>
       </td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align: right">
+        One last thing, specify your Purchase Order number.<br />You can follow up with us with the order number for
+        updates.
+      </td>
+      <td><input name="purchase-order-no" placeholder="unique/random number" /></td>
     </tr>
   </table>
 
